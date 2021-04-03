@@ -6,7 +6,8 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class Shoot : MonoBehaviour
 {
-    public GameObject[] guns;
+    public GameObject leftFirePoint;
+    public GameObject rightFirePoint;
     public XRNode inputSource;
 
     public GameObject ammo;
@@ -14,33 +15,28 @@ public class Shoot : MonoBehaviour
     public GameObject electric2;
     public GameObject shield;
 
-    public GameObject[] aimPoint;
-    private InputDevice device;
-    private bool trigger;
-    private bool primary;
+    
+    
     private bool primaryPressed = false;
-    private bool secondary;
 
-    private float fireDelay;
     private float nextShot;
 
     private bool isElectric;
+    private GameObject gm;
+    private VRMapping controlls;
 
     // Start is called before the first frame update
     void Start()
     {
-        //aimPoint[0] = guns[0].transform.GetChild(0).gameObject;
-        //aimPoint[1] = guns[1].transform.GetChild(0).gameObject;
+        gm = GameObject.Find("GameManager");
+        controlls = gm.GetComponent<VRMapping>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        device = InputDevices.GetDeviceAtXRNode(inputSource);
-        device.TryGetFeatureValue(CommonUsages.triggerButton, out trigger);
-        device.TryGetFeatureValue(CommonUsages.primaryButton, out primary);
-        device.TryGetFeatureValue(CommonUsages.secondaryButton, out secondary);
-        if (primary)
+        ///////////////////////left primary///////////////////
+        if (controlls.leftPrimary)
         {
             if (!primaryPressed)
             {
@@ -60,8 +56,10 @@ public class Shoot : MonoBehaviour
         {
             primaryPressed = false;
         }
-
-        if (secondary)
+        /////////////////////////////////////////////////////
+        
+        /////////////////////////right primary////////////////////
+        if (controlls.leftSecondary)
         {
             shield.SetActive(true);
         }
@@ -69,18 +67,20 @@ public class Shoot : MonoBehaviour
         {
             shield.SetActive(false);
         }
+        /////////////////////////////////////////////////////////////
+        
 
-        if (trigger)
+        if (controlls.leftTrigger)
         {
             if (isElectric)
             {
                 electric.SetActive(true);
-                electric.transform.position = guns[0].transform.position;
-                electric.transform.eulerAngles = guns[0].transform.parent.eulerAngles;
+                electric.transform.position = leftFirePoint.transform.position;
+                electric.transform.eulerAngles = leftFirePoint.transform.parent.eulerAngles;
 
                 electric2.SetActive(true);
-                electric2.transform.position = guns[1].transform.position;
-                electric2.transform.eulerAngles = guns[1].transform.parent.eulerAngles;
+                electric2.transform.position = rightFirePoint.transform.position;
+                electric2.transform.eulerAngles = rightFirePoint.transform.parent.eulerAngles;
             }
             else
             {
@@ -89,12 +89,12 @@ public class Shoot : MonoBehaviour
 
                     
                     Vector3 point = GetComponent<HeadTracking>().point;
-                    var clone = Instantiate(ammo, guns[0].transform.position, Quaternion.identity);
-                    clone.GetComponent<Bullet>().direction = (point - guns[0].transform.position).normalized;
+                    var clone = Instantiate(ammo, leftFirePoint.transform.position, Quaternion.identity);
+                    clone.GetComponent<Bullet>().direction = (point - leftFirePoint.transform.position).normalized;
                     nextShot = Time.time + 1;
 
-                    var clone2 = Instantiate(ammo, guns[1].transform.position, Quaternion.identity);
-                    clone2.GetComponent<Bullet>().direction = (point - guns[1].transform.position).normalized;
+                    var clone2 = Instantiate(ammo, rightFirePoint.transform.position, Quaternion.identity);
+                    clone2.GetComponent<Bullet>().direction = (point - rightFirePoint.transform.position).normalized;
                     nextShot = Time.time + .3f;
 
                     Destroy(clone, 5);

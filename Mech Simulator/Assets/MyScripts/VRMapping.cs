@@ -40,15 +40,13 @@ public class VRMapping : MonoBehaviour
         leftController.TryGetFeatureValue(CommonUsages.triggerButton, out leftTrigger);
         leftController.TryGetFeatureValue(CommonUsages.gripButton, out leftGrip);
         leftController.TryGetFeatureValue(CommonUsages.primaryButton, out leftPrimary);
-        leftController.TryGetFeatureValue(CommonUsages.secondaryButton, out rightSecondary);
+        leftController.TryGetFeatureValue(CommonUsages.secondaryButton, out leftSecondary);
 
         rightController.TryGetFeatureValue(CommonUsages.primary2DAxis, out rightStick);
         rightController.TryGetFeatureValue(CommonUsages.triggerButton, out rightTrigger);
         rightController.TryGetFeatureValue(CommonUsages.gripButton, out rightGrip);
         rightController.TryGetFeatureValue(CommonUsages.primaryButton, out rightPrimary);
         rightController.TryGetFeatureValue(CommonUsages.secondaryButton, out rightSecondary);
-
-
 
     }
 }
