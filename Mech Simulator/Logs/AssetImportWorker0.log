@@ -567,3 +567,1241 @@ Received Import Request.
 Start importing Assets/Settings/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7a016866d4e6b208eae6e8c54b0dcd') in 0.004439 seconds
   Import took 0.008632 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003306 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.908 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2841 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3438.
+Total: 3.860500 ms (FindLiveObjects: 0.314300 ms CreateObjectMapping: 0.181300 ms MarkObjects: 2.408600 ms  DeleteObjects: 0.954600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 444.211533 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Settings using Guid(0735c275001a2c84dafdb30deced5d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca1225e92ee2e11a693ed3bf1c30361') in 0.007360 seconds
+  Import took 0.012299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.134960 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.002797 seconds
+  Import took 0.007049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000776 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42baae205c97e3337697759514652acd') in 0.002113 seconds
+  Import took 0.006190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.663727 seconds.
+  path: Assets/MyScripts
+  artifactKey: Guid(9b6b969d40465cc49b47eee03f529bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts using Guid(9b6b969d40465cc49b47eee03f529bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c11dd2d1bbbc3766c67c81b1b995c4') in 0.002863 seconds
+  Import took 0.007563 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.909 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2840 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.0 MB.
+System memory in use after: 130.2 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3443.
+Total: 3.419800 ms (FindLiveObjects: 0.360300 ms CreateObjectMapping: 0.127900 ms MarkObjects: 1.956100 ms  DeleteObjects: 0.974500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2845 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.1 MB.
+System memory in use after: 130.3 MB.
+
+Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 3452.
+Total: 3.422400 ms (FindLiveObjects: 0.308700 ms CreateObjectMapping: 0.142300 ms MarkObjects: 1.966500 ms  DeleteObjects: 1.003600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 78.218770 seconds.
+  path: Assets/MyScripts/Mech.prefab
+  artifactKey: Guid(d25c64c55be678a4ba2328131cb0a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/Mech.prefab using Guid(d25c64c55be678a4ba2328131cb0a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9196e709131bce181d1b8b62d2412b53') in 0.667845 seconds
+  Import took 0.672566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.918705 seconds.
+  path: Assets/Metal textures pack/pattern 01
+  artifactKey: Guid(77cedf47eb8f38f4fae428c49f549ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01 using Guid(77cedf47eb8f38f4fae428c49f549ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3928ed93ed0c1960cb1cd7bbb85c679') in 0.003783 seconds
+  Import took 0.009471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004165 seconds.
+  path: Assets/Metal textures pack/pattern 01
+  artifactKey: Guid(77cedf47eb8f38f4fae428c49f549ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01 using Guid(77cedf47eb8f38f4fae428c49f549ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3928ed93ed0c1960cb1cd7bbb85c679') in 0.003277 seconds
+  Import took 0.008967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081982 seconds.
+  path: Assets/Metal textures pack/pattern 01/diffuse.tga
+  artifactKey: Guid(9b1dbb54b9c5f1143aa7e0be2921a7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01/diffuse.tga using Guid(9b1dbb54b9c5f1143aa7e0be2921a7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c663d1c1101dc0fdaf1fabbac3c106') in 0.028432 seconds
+  Import took 0.034069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Metal textures pack/pattern 01/preview.jpg
+  artifactKey: Guid(aa0257eecdfa585408868c2a87a274b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01/preview.jpg using Guid(aa0257eecdfa585408868c2a87a274b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e034ced0d348131f0e6c2d4be7ef7cbc') in 0.025748 seconds
+  Import took 0.030636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Metal textures pack/pattern 01/normal.tga
+  artifactKey: Guid(d5854954021862c4fa2da43144b07404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01/normal.tga using Guid(d5854954021862c4fa2da43144b07404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00463b4f6ae80789fd960c2165e2d415') in 0.020540 seconds
+  Import took 0.025617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Metal textures pack/pattern 01/Metal pattern 01.mat
+  artifactKey: Guid(37db27cd90bcb064daf2429fa42e022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01/Metal pattern 01.mat using Guid(37db27cd90bcb064daf2429fa42e022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca12a52f5ef7d1fddaf9ab882d8f679') in 0.048053 seconds
+  Import took 0.052127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.482138 seconds.
+  path: Assets/Metal textures pack/pattern 05/diffuse.tga
+  artifactKey: Guid(003e5214091340640b70531cdba2a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/diffuse.tga using Guid(003e5214091340640b70531cdba2a937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd469cd1e543e9f22a516a173e8846917') in 0.018082 seconds
+  Import took 0.023676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Metal textures pack/pattern 05/preview.jpg
+  artifactKey: Guid(fd54a50920fbb74429172df0fbb24b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/preview.jpg using Guid(fd54a50920fbb74429172df0fbb24b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad6157d1f1b0a2d91a777e43bf54f6b') in 0.014973 seconds
+  Import took 0.021097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Metal textures pack/pattern 05/Metal pattern 05.mat
+  artifactKey: Guid(35fc0bb8c874eba48b22f60d878ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/Metal pattern 05.mat using Guid(35fc0bb8c874eba48b22f60d878ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ca91f70145b5fc50f6156de9e70264') in 0.091477 seconds
+  Import took 0.096363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Metal textures pack/pattern 05/normal.tga
+  artifactKey: Guid(984a0d4933c99ab4db68d1d547fd0166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/normal.tga using Guid(984a0d4933c99ab4db68d1d547fd0166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4ae3ed1dd4fd25fd68b55df2abfffd') in 0.020127 seconds
+  Import took 0.024741 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003086 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.3 MB.
+System memory in use after: 131.9 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3496.
+Total: 3.561100 ms (FindLiveObjects: 0.284600 ms CreateObjectMapping: 0.129800 ms MarkObjects: 1.843400 ms  DeleteObjects: 1.302500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 36.631633 seconds.
+  path: Assets/Metal textures pack/pattern 05/New Material.mat
+  artifactKey: Guid(6c20f23af13b7b34899b635d82bbf6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/New Material.mat using Guid(6c20f23af13b7b34899b635d82bbf6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740ac3395d72aa97008e5d5dc5b6558d') in 0.142793 seconds
+  Import took 0.147054 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003821 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.030 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.4 MB.
+System memory in use after: 132.0 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3536.
+Total: 3.838800 ms (FindLiveObjects: 0.332700 ms CreateObjectMapping: 0.205500 ms MarkObjects: 2.004700 ms  DeleteObjects: 1.294200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 130.404859 seconds.
+  path: Assets/Metal textures pack/pattern 05/Metal pattern 05.mat
+  artifactKey: Guid(35fc0bb8c874eba48b22f60d878ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/Metal pattern 05.mat using Guid(35fc0bb8c874eba48b22f60d878ffbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15629ab6b667b4bbab949567b5a28a30') in 0.522677 seconds
+  Import took 0.529117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.714703 seconds.
+  path: Assets/Mech.prefab
+  artifactKey: Guid(f2ba1abaf60c8534cba8dc03b13ff807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech.prefab using Guid(f2ba1abaf60c8534cba8dc03b13ff807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924a4727b53b23ec5e42ece4c63ea230') in 0.645569 seconds
+  Import took 0.651968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.337786 seconds.
+  path: Assets/Sci-Fi Rifle/Materials/Sci-Fi Rifle.mat
+  artifactKey: Guid(8b91047244ae6504f95c7c160c2ae5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Rifle/Materials/Sci-Fi Rifle.mat using Guid(8b91047244ae6504f95c7c160c2ae5e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7729fbc6a24ee65e20384ea9d3c70a82') in 0.166012 seconds
+  Import took 0.171125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.511975 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(8d7a509d0228cab48b4b9ecbfc8bd678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(8d7a509d0228cab48b4b9ecbfc8bd678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb750f830b4242d1cb8a206c5ad6abb1') in 0.010791 seconds
+  Import took 0.016052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif
+  artifactKey: Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_Albedo.tif using Guid(2ec6e1532acb1254f9f3797b5d82db44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b05820998f27361072f3c4e46f2cb9f') in 0.017916 seconds
+  Import took 0.022358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Construction_Light/ConstructionLight_MetallicOcculusionSmoothness.tif using Guid(9a81f1a59f171804e84fce76584bdcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876cd4a0dc61ebad69b3dcaf7c256a28') in 0.016375 seconds
+  Import took 0.021847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif
+  artifactKey: Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_AlbedoSmoothness.tif using Guid(3e11968c372730442aae3b4f7c909931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9021f29d2efae0e43bf972946c9422') in 0.016051 seconds
+  Import took 0.076047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif
+  artifactKey: Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/Drywall_Normal.tif using Guid(e231e4c02c48ee14aafa55f7b1a843c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d7842a5bc4418dfdde3e3c6170b510') in 0.011446 seconds
+  Import took 0.016759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Presets/Defaults/AudioDecompressOnLoad.preset
+  artifactKey: Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/AudioDecompressOnLoad.preset using Guid(e7689051185d12f4298e1ebb2693a29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236ecb79efdd8d318d0d46a9ccd821cb') in 0.027784 seconds
+  Import took 0.032766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/DirectionalLight_Default.preset using Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8410575413b837c25dfc246cae01a8') in 0.008481 seconds
+  Import took 0.012661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dd2f44643931ce9701609ea70b55e7') in 0.012819 seconds
+  Import took 0.017809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Presets/Defaults/DirectionalLight_Default.preset
+  artifactKey: Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets/Defaults/DirectionalLight_Default.preset using Guid(463065d4f17d1d94d848aa127b94dd43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af8410575413b837c25dfc246cae01a8') in 0.004909 seconds
+  Import took 0.010694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010391 seconds.
+  path: Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif
+  artifactKey: Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Drywall/DrywallPainted_Normal.tif using Guid(2cd242c9999e92b4ca96dab876cfaf13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dd2f44643931ce9701609ea70b55e7') in 0.011514 seconds
+  Import took 0.015794 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003914 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.18 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 132.3 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 3576.
+Total: 4.876000 ms (FindLiveObjects: 0.433600 ms CreateObjectMapping: 0.189900 ms MarkObjects: 2.843500 ms  DeleteObjects: 1.407000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 86.375337 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3097013b0a5fc4a46f0781d43793a1bb') in 0.012674 seconds
+  Import took 0.018632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026045 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3097013b0a5fc4a46f0781d43793a1bb') in 0.003033 seconds
+  Import took 0.007616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.481358 seconds.
+  path: Assets/SMC Pack 1/Demo/DemoAssets/dummy.mat
+  artifactKey: Guid(cecd2be9a38504949bbccbbb9cfc11fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SMC Pack 1/Demo/DemoAssets/dummy.mat using Guid(cecd2be9a38504949bbccbbb9cfc11fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb72b0b8a9609642ec33558a62a798e4') in 0.177829 seconds
+  Import took 0.185762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Metal textures pack/pattern 11/Metal pattern 11.mat
+  artifactKey: Guid(2a70eeb1a8730dc4f8aef008265c64be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 11/Metal pattern 11.mat using Guid(2a70eeb1a8730dc4f8aef008265c64be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb266b84ca322cbe7d85a220cccf1e9') in 0.100990 seconds
+  Import took 0.108417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Metal textures pack/pattern 04/Metal pattern 04.mat
+  artifactKey: Guid(5b8c01216e1b54c4eb59ab00cf82bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 04/Metal pattern 04.mat using Guid(5b8c01216e1b54c4eb59ab00cf82bd05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f16cb6386b31638f12933cf34c6ca24') in 0.043502 seconds
+  Import took 0.049471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_MetallicOcculusionSmoothness.tif using Guid(3017ed6fed9d3bb49ba99bf738e2d626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2369d770af2243323b324d33301c654') in 0.017748 seconds
+  Import took 0.023334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Metal textures pack/pattern 06/Metal pattern 06.mat
+  artifactKey: Guid(1b1a016856447204289da1fec2ee17e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 06/Metal pattern 06.mat using Guid(1b1a016856447204289da1fec2ee17e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e19cf0b3ae0fb4a6761ae2a7bc774ed') in 0.038781 seconds
+  Import took 0.044379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Metal textures pack/pattern 02/Metal pattern 02.mat
+  artifactKey: Guid(a792762246421814b9b893a7e580ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 02/Metal pattern 02.mat using Guid(a792762246421814b9b893a7e580ea87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3fe3e527c7035af47848a35aa90141b') in 0.059456 seconds
+  Import took 0.064769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_MetallicOcculusionSmoothness.tif using Guid(6c509e4ae024b5e4faeefb92dab5c812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3dafca863e5626bba1566cc8d51a32a') in 0.013541 seconds
+  Import took 0.020508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Metal textures pack/pattern 08/Metal pattern 08.mat
+  artifactKey: Guid(3fc3bbc4a9839d24eb455f5e511a1c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 08/Metal pattern 08.mat using Guid(3fc3bbc4a9839d24eb455f5e511a1c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35efdfe82b2de6223df896760a6bfaa') in 0.046649 seconds
+  Import took 0.052138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Metal textures pack/pattern 10/Metal pattern 10.mat
+  artifactKey: Guid(4bb12e2031b9add4ab7d29bb4095eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 10/Metal pattern 10.mat using Guid(4bb12e2031b9add4ab7d29bb4095eadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e640a5e069930781ab0c5f81d342ad4d') in 0.048809 seconds
+  Import took 0.055431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/MyScripts/Mech.prefab
+  artifactKey: Guid(d25c64c55be678a4ba2328131cb0a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/Mech.prefab using Guid(d25c64c55be678a4ba2328131cb0a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13293d6a3b9894d7e16f4620ad77a5e') in 0.298363 seconds
+  Import took 0.303756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_MetallicOcculusionSmoothness.tif using Guid(f5df2fb0c070b57429f8ca23b216093b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13d8992b55648a308d465c0399c5158d') in 0.012629 seconds
+  Import took 0.018060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00f58adb62ab210bbac20362bad3122') in 0.015294 seconds
+  Import took 0.021396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif
+  artifactKey: Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_MetallicOcculusionSmoothness.tif using Guid(a8d38587573a5f34c91c4ae0fbd8bfef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466a774efe5d2af76419b54af62fe1bc') in 0.013523 seconds
+  Import took 0.019629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6415800344f3221e995cbeaed5cc3a') in 0.076899 seconds
+  Import took 0.081618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05f8f3cd963d4f5c7d3e363582fd7fe3') in 0.098445 seconds
+  Import took 0.102895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Metal textures pack/pattern 09/Metal pattern 09.mat
+  artifactKey: Guid(c9aa9ee84721eb7408ff140756a7d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 09/Metal pattern 09.mat using Guid(c9aa9ee84721eb7408ff140756a7d217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8772dafdc2246a7bd665f78029f8c3d8') in 0.037916 seconds
+  Import took 0.043280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif
+  artifactKey: Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Plastic/Elastic_Normal.tif using Guid(db17334dfe5991a4bbe241ee9a728c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b690617268f7da5541f6adcb9341abf') in 0.011657 seconds
+  Import took 0.017505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Metal textures pack/pattern 03/Metal pattern 03.mat
+  artifactKey: Guid(5cc7ebbd2acd2764e88237b9e362dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 03/Metal pattern 03.mat using Guid(5cc7ebbd2acd2764e88237b9e362dd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd94e4ae60c579a1d7cd14f905ace59') in 0.035297 seconds
+  Import took 0.040510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Metal textures pack/pattern 07/Metal pattern 07.mat
+  artifactKey: Guid(c195b1b9ae19d064082c33a22dc5a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 07/Metal pattern 07.mat using Guid(c195b1b9ae19d064082c33a22dc5a0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12f3ba920e0a45902a7c5526884eaaf') in 0.038934 seconds
+  Import took 0.044540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6cf6bca0c91f793d665cd93ee33a2a7') in 0.039877 seconds
+  Import took 0.044870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif
+  artifactKey: Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Jigsaw/Jigsaw_Normal.tif using Guid(06969fc081d8cc146af6634f75abe652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f47aff4511fb3973081b53cf4c4936') in 0.013726 seconds
+  Import took 0.019275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif
+  artifactKey: Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Albedo.tif using Guid(59c8de363dc14c54986d0751c2c38342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d1205d4bed0a5a8a7cb6c888007ed7') in 0.013754 seconds
+  Import took 0.019617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5bb59d504194d94ad4769ef9056e06') in 0.013686 seconds
+  Import took 0.019096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif
+  artifactKey: Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Props/Hammer/Hammer_Normal.tif using Guid(c517a9b1527aec343806327b47ad22df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bff49df15c560f937db4f43a35eba37') in 0.012471 seconds
+  Import took 0.017431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Metal textures pack/pattern 01/Metal pattern 01.mat
+  artifactKey: Guid(37db27cd90bcb064daf2429fa42e022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 01/Metal pattern 01.mat using Guid(37db27cd90bcb064daf2429fa42e022f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b91889edd8a3e03cb69e569e4cb84a53') in 0.022870 seconds
+  Import took 0.028356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif
+  artifactKey: Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/Concrete/Ground_Normal.tif using Guid(fab85e0cacda9644a99e5182a86b71f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5467d888afc72b4638664f17855fecb4') in 0.011911 seconds
+  Import took 0.016685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.302802 seconds.
+  path: Assets/Sphere 1.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere 1.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1df045d6850cb9a9a1cf523b92b5e8') in 8.392849 seconds
+  Import took 12.779840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000664 seconds.
+  path: Assets/Sphere 1.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere 1.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1df045d6850cb9a9a1cf523b92b5e8') in 0.089866 seconds
+  Import took 0.096310 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2870 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 138.8 MB.
+System memory in use after: 136.4 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 3638.
+Total: 3.621400 ms (FindLiveObjects: 0.346700 ms CreateObjectMapping: 0.168400 ms MarkObjects: 1.895300 ms  DeleteObjects: 1.209700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 368.831530 seconds.
+  path: Assets/Mech.prefab
+  artifactKey: Guid(f2ba1abaf60c8534cba8dc03b13ff807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech.prefab using Guid(f2ba1abaf60c8534cba8dc03b13ff807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d43ef955e9447849878746cb7b4b2ac') in 0.569396 seconds
+  Import took 0.577028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sphere 1.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere 1.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1c68425cffa566a534929d96f5ac75') in 0.116269 seconds
+  Import took 0.121762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.753328 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage
+  artifactKey: Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage using Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef132a071f464838e614d60bdae8665a') in 0.005157 seconds
+  Import took 0.010887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000746 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage
+  artifactKey: Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage using Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef132a071f464838e614d60bdae8665a') in 0.005189 seconds
+  Import took 0.011795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.243152 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade.unitypackage
+  artifactKey: Guid(7f02a1dd846b70e4083ed4cfd8388abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade.unitypackage using Guid(7f02a1dd846b70e4083ed4cfd8388abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69854c6b1373e854e2ba2e5ea55c3396') in 0.004683 seconds
+  Import took 0.009307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.414960 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat
+  artifactKey: Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat using Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c346f9e46092b84e87633e92771d9c33') in 0.204621 seconds
+  Import took 0.210190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.062727 seconds.
+  path: Assets/MagicArsenal/Effects
+  artifactKey: Guid(62f7d4e224537c045b67a4ae62fa7867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects using Guid(62f7d4e224537c045b67a4ae62fa7867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6bd58c14310de37c8aeb04f778e4c6') in 0.004278 seconds
+  Import took 0.009811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001755 seconds.
+  path: Assets/MagicArsenal/Effects
+  artifactKey: Guid(62f7d4e224537c045b67a4ae62fa7867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects using Guid(62f7d4e224537c045b67a4ae62fa7867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6bd58c14310de37c8aeb04f778e4c6') in 0.003386 seconds
+  Import took 0.009119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.478613 seconds.
+  path: Assets/MagicArsenal/Effects/Materials
+  artifactKey: Guid(5913dc50f24a8f34cb9b20983c1243ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials using Guid(5913dc50f24a8f34cb9b20983c1243ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0df15b24dedebd64b461f6f74e6f6b') in 0.004069 seconds
+  Import took 0.010724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.714950 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles
+  artifactKey: Guid(1f669620014f313408d850e2a0346faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles using Guid(1f669620014f313408d850e2a0346faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b25ca4c8ef811bd3bab1e86f7f290e') in 0.004181 seconds
+  Import took 0.009015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001448 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles
+  artifactKey: Guid(1f669620014f313408d850e2a0346faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles using Guid(1f669620014f313408d850e2a0346faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7b25ca4c8ef811bd3bab1e86f7f290e') in 0.003358 seconds
+  Import took 0.008917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.673061 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane
+  artifactKey: Guid(d1e28eef07774d048aca1d74d1404b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane using Guid(d1e28eef07774d048aca1d74d1404b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4048ec64d6bcbf19ab544def68d9f8bc') in 0.003489 seconds
+  Import took 0.008038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033152 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/Arcane_Twirl.mat
+  artifactKey: Guid(6a89627430d3b5b44b6f33272c5af5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/Arcane_Twirl.mat using Guid(6a89627430d3b5b44b6f33272c5af5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd077812749720d6b904309d499d853') in 0.015766 seconds
+  Import took 0.020071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneLines.mat
+  artifactKey: Guid(c63d8954b4144d04c98219ec9f0e9fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneLines.mat using Guid(c63d8954b4144d04c98219ec9f0e9fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe7311614909ac811c42b6fbd9b16ca') in 0.013690 seconds
+  Import took 0.018130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneGlow.mat
+  artifactKey: Guid(1ae55ae61d1144248b1cbd80a738177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneGlow.mat using Guid(1ae55ae61d1144248b1cbd80a738177c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eceb470e4cc5aea1df09ccda92697e6') in 0.013006 seconds
+  Import took 0.018061 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004727 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.088 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2869 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 139.6 MB.
+System memory in use after: 137.3 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3681.
+Total: 4.511100 ms (FindLiveObjects: 0.533500 ms CreateObjectMapping: 0.231300 ms MarkObjects: 2.272500 ms  DeleteObjects: 1.471700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 151.850894 seconds.
+  path: Assets/ArcaneExplosionMega Variant.prefab
+  artifactKey: Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcaneExplosionMega Variant.prefab using Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4e5977af4a03ef3d3cebb799508e5c') in 0.029597 seconds
+  Import took 0.035595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.272877 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs
+  artifactKey: Guid(72634127c2d690e4fb296a4319563f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs using Guid(72634127c2d690e4fb296a4319563f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d93d0ad9638924ab6492465fee719c2') in 0.057859 seconds
+  Import took 1.808500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.746955 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams
+  artifactKey: Guid(47836203402d0a943a27f7982f715b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams using Guid(47836203402d0a943a27f7982f715b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c145161563c5118b55e1197ffda83712') in 0.006215 seconds
+  Import took 0.016426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000811 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams
+  artifactKey: Guid(47836203402d0a943a27f7982f715b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams using Guid(47836203402d0a943a27f7982f715b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c145161563c5118b55e1197ffda83712') in 0.004729 seconds
+  Import took 0.012404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.472838 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams
+  artifactKey: Guid(6fd3c9e0474bedc42972b2b2f6a4337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams using Guid(6fd3c9e0474bedc42972b2b2f6a4337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0acdbd5a4e4ecee619d9a3330d91821') in 0.003858 seconds
+  Import took 0.063185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004738 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/ArcaneBeamStatic.prefab
+  artifactKey: Guid(95960c29d7cc6f649afbb4358930ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/ArcaneBeamStatic.prefab using Guid(95960c29d7cc6f649afbb4358930ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0032002c40724757c64a5c2ed775fd42') in 0.012253 seconds
+  Import took 0.019554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/StormBeamStatic.prefab
+  artifactKey: Guid(8e4184a824fdfc340831af4886dff55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/StormBeamStatic.prefab using Guid(8e4184a824fdfc340831af4886dff55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57f4646148c3408e01865a7ce7a279f') in 0.008668 seconds
+  Import took 0.014550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/ShadowBeamStatic.prefab
+  artifactKey: Guid(2756680bebe4c504889abcb53a10e470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/ShadowBeamStatic.prefab using Guid(2756680bebe4c504889abcb53a10e470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c861741a5212e1bd348a394c9a4027') in 0.010578 seconds
+  Import took 0.015680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LightningBeamStatic.prefab
+  artifactKey: Guid(24070aaeb9133d44aa92828a2c4af971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LightningBeamStatic.prefab using Guid(24070aaeb9133d44aa92828a2c4af971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f104d9c1f479e6b92d2beb73d857df4f') in 0.010075 seconds
+  Import took 0.017559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/FireBeamStatic.prefab
+  artifactKey: Guid(bdd74ee3224f3f34ba4dd9684bf50ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/FireBeamStatic.prefab using Guid(bdd74ee3224f3f34ba4dd9684bf50ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6a19f814dd98e2416f6db9d56da64d') in 0.010063 seconds
+  Import took 0.015704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LifeBeamStatic.prefab
+  artifactKey: Guid(52bda26bb63e41142a7e01ae28f773fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LifeBeamStatic.prefab using Guid(52bda26bb63e41142a7e01ae28f773fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bf34f5a0586de3cafa68424b11133e') in 0.009289 seconds
+  Import took 0.015081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000439 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/EarthBeamStatic.prefab
+  artifactKey: Guid(ebd4d0cd640837542ba5062ccbdd10b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/EarthBeamStatic.prefab using Guid(ebd4d0cd640837542ba5062ccbdd10b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e84830ed0a3a2e879bb26bc7ddaa49') in 0.010281 seconds
+  Import took 0.017396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LightBeamStatic.prefab
+  artifactKey: Guid(638096f04a15ff041a1b678936261e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LightBeamStatic.prefab using Guid(638096f04a15ff041a1b678936261e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d585af5def20374ffc318dcc52467b5') in 0.008979 seconds
+  Import took 0.014998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/FrostBeamStatic.prefab
+  artifactKey: Guid(9b866c02d86acff4495a8b8653cf331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/FrostBeamStatic.prefab using Guid(9b866c02d86acff4495a8b8653cf331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f15309ca0f5ea028fc85c0fa0eaa40') in 0.010283 seconds
+  Import took 0.016348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/WaterBeamStatic.prefab
+  artifactKey: Guid(855abc961d607e748b7217637f203ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/WaterBeamStatic.prefab using Guid(855abc961d607e748b7217637f203ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77eb68b751c10e0d8d03ad87385bee5') in 0.010861 seconds
+  Import took 0.017523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.733851 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields
+  artifactKey: Guid(455fdf39d02e4e241898de29e8e65750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields using Guid(455fdf39d02e4e241898de29e8e65750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf639612f8fae10159e987a9180639c') in 0.005646 seconds
+  Import took 0.013732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.506850 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere
+  artifactKey: Guid(57b7ef67800326743ba6094ed1943de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere using Guid(57b7ef67800326743ba6094ed1943de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bbc7db45aa7955cf9d5c2fd913ed61') in 0.003599 seconds
+  Import took 0.010466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/EarthShield.prefab
+  artifactKey: Guid(0c780eb88b8d7494b88387a181d2ee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/EarthShield.prefab using Guid(0c780eb88b8d7494b88387a181d2ee75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e391798646639421cf3b925336cc74') in 0.010597 seconds
+  Import took 0.016237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/StormShield.prefab
+  artifactKey: Guid(0afd72c3a3793ed45ba4bfaa90d506aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/StormShield.prefab using Guid(0afd72c3a3793ed45ba4bfaa90d506aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b0b36c87c2a8525204a407ac308b85') in 0.007403 seconds
+  Import took 0.012995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/ShadowShield.prefab
+  artifactKey: Guid(dc615a12cdfd5d34ca9cbafb5cc68a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/ShadowShield.prefab using Guid(dc615a12cdfd5d34ca9cbafb5cc68a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225990dfdacb268795fcc75337a4ed3c') in 0.007329 seconds
+  Import took 0.013653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/SmoothShield2.prefab
+  artifactKey: Guid(6b54adbd241ce6c49922b1788e4469ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/SmoothShield2.prefab using Guid(6b54adbd241ce6c49922b1788e4469ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cb337c32e3d5bdf311c3a45184330f') in 0.007316 seconds
+  Import took 0.012862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/SmoothShield.prefab
+  artifactKey: Guid(3029595599ffe3f4e8ce9d78365a1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/SmoothShield.prefab using Guid(3029595599ffe3f4e8ce9d78365a1ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '999f1fb1ac5077d55c8d9640afbee58f') in 0.007719 seconds
+  Import took 0.013395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/FireShield.prefab
+  artifactKey: Guid(18a6b21b686693646907f4f8278ae8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/FireShield.prefab using Guid(18a6b21b686693646907f4f8278ae8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c56fa33110cc8541d60af450cb7492') in 0.007560 seconds
+  Import took 0.012472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/LightningShield.prefab
+  artifactKey: Guid(3173fd937cd79754bb74ac3fb8f120a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/LightningShield.prefab using Guid(3173fd937cd79754bb74ac3fb8f120a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f811a948399fbbbf2a5226cb72ae51dc') in 0.006857 seconds
+  Import took 0.011947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/LightShield.prefab
+  artifactKey: Guid(b6ac2ba5687816e43984b9ee3a277757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/LightShield.prefab using Guid(b6ac2ba5687816e43984b9ee3a277757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774ba4bac303b30d9179c37fbd7038f7') in 0.008598 seconds
+  Import took 0.015166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/ArcaneShield.prefab
+  artifactKey: Guid(d8bc825bd1811bd4aacb4e3578be5326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/ArcaneShield.prefab using Guid(d8bc825bd1811bd4aacb4e3578be5326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f8194ecaa5df376b52c7a8c2ba58e1') in 0.008682 seconds
+  Import took 0.014179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/FrostShield.prefab
+  artifactKey: Guid(d9eca31fd43c4f94cb4860b71f3a6d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/FrostShield.prefab using Guid(d9eca31fd43c4f94cb4860b71f3a6d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd57935b2a270dc69912a5edd279fa7') in 0.008253 seconds
+  Import took 0.013817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/LifeShield.prefab
+  artifactKey: Guid(f33f398b05e89d944a5e98e4d9a60ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/LifeShield.prefab using Guid(f33f398b05e89d944a5e98e4d9a60ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35f7b5cab83619ae4ab81f8d376dfd0') in 0.008295 seconds
+  Import took 0.014216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/WaterShield.prefab
+  artifactKey: Guid(6ecc60ef205d3084e9b551061fc74b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/WaterShield.prefab using Guid(6ecc60ef205d3084e9b551061fc74b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924095f3464fd0b876dc1f9ee691ff7d') in 0.007957 seconds
+  Import took 0.013401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/LifeShield.prefab
+  artifactKey: Guid(f33f398b05e89d944a5e98e4d9a60ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/LifeShield.prefab using Guid(f33f398b05e89d944a5e98e4d9a60ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e35f7b5cab83619ae4ab81f8d376dfd0') in 0.006614 seconds
+  Import took 0.012380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007804 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/WaterShield.prefab
+  artifactKey: Guid(6ecc60ef205d3084e9b551061fc74b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Shields/Shield Sphere/WaterShield.prefab using Guid(6ecc60ef205d3084e9b551061fc74b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924095f3464fd0b876dc1f9ee691ff7d') in 0.007753 seconds
+  Import took 0.012992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.934199 seconds.
+  path: Assets/MagicArsenal/Effects/Models/mp_shield.FBX
+  artifactKey: Guid(1aa60d6d8e1bb1445b0486ffb8b130fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Models/mp_shield.FBX using Guid(1aa60d6d8e1bb1445b0486ffb8b130fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c7cfe0febcec7494e1e6fa250055ca0') in 0.294104 seconds
+  Import took 0.300843 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.291 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.3 MB.
+System memory in use after: 138.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3722.
+Total: 4.851100 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.132200 ms MarkObjects: 2.413000 ms  DeleteObjects: 2.006700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 119.413319 seconds.
+  path: Assets/MyScripts/Mech.prefab
+  artifactKey: Guid(d25c64c55be678a4ba2328131cb0a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/Mech.prefab using Guid(d25c64c55be678a4ba2328131cb0a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1e1e125eae8dac67c4cd9ce47f6ea4') in 0.440817 seconds
+  Import took 0.447901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.772124 seconds.
+  path: Assets/MyScripts/Bullet.cs
+  artifactKey: Guid(9d4246c330b1bee4893f75380d0525f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/Bullet.cs using Guid(9d4246c330b1bee4893f75380d0525f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c8077308b79798c2e6ae7de374f5c6') in 0.009385 seconds
+  Import took 0.016775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003224 seconds.
+  path: Assets/MyScripts/Bullet.cs
+  artifactKey: Guid(9d4246c330b1bee4893f75380d0525f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/Bullet.cs using Guid(9d4246c330b1bee4893f75380d0525f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c8077308b79798c2e6ae7de374f5c6') in 0.003878 seconds
+  Import took 0.012588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.691055 seconds.
+  path: Assets/Sphere 1.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere 1.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7920d1d67c57d6cc133c491710f5085') in 0.020145 seconds
+  Import took 0.026578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.421144 seconds.
+  path: Assets/Sphere 1.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere 1.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb0dc7961aeeebe3d791b957465a1ab') in 0.035222 seconds
+  Import took 0.049785 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004017 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.180 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 2868 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.4 MB.
+System memory in use after: 138.2 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 3762.
+Total: 4.575200 ms (FindLiveObjects: 0.452500 ms CreateObjectMapping: 0.192200 ms MarkObjects: 2.482500 ms  DeleteObjects: 1.446100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000

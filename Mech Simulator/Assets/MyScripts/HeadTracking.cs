@@ -1,0 +1,72 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+//using TMpro;
+
+public class HeadTracking : MonoBehaviour
+{
+    public float rotationSpeed;
+    public LayerMask mask;
+    //public TextMeshProUGUI text;
+    public GameObject viewPoint;
+    public GameObject leftTurret;
+    public GameObject rightTurret;
+
+    [System.NonSerialized]
+    public Vector3 point;
+    private GameObject mech;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        mech = GameObject.Find("Mech");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(viewPoint.transform.position);
+
+        if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, mask))
+        {
+            Transform objectHit = hit.transform;
+            if(objectHit.gameObject.layer == 6)
+            {
+                //text.text = hit.transform.name + "";
+            }
+            else
+            {
+                //text.text = "No Target";
+            }
+            point = hit.point;
+            if (objectHit.name == "RightWall") {
+                mech.transform.Rotate(0, rotationSpeed, 0);
+            }
+            if(objectHit.name == "LeftWall")
+            {
+                mech.transform.Rotate(0, -rotationSpeed, 0);
+            }
+            if (objectHit.name == "RightQuarterWall")
+            {
+                mech.transform.Rotate(0, rotationSpeed *.5f, 0);
+            }
+            if (objectHit.name == "LeftQuarterWall")
+            {
+                mech.transform.Rotate(0, -rotationSpeed *.5f, 0);
+            }
+
+            if (objectHit.gameObject.layer != 8)
+            {
+                leftTurret.transform.LookAt(hit.point);
+                rightTurret.transform.LookAt(hit.point);
+            }
+            else
+            {
+                leftTurret.transform.localEulerAngles = new Vector3(0, 0, 0);
+                rightTurret.transform.localEulerAngles = new Vector3(0, 0, 0);
+            }
+            
+        }
+    }
+}
