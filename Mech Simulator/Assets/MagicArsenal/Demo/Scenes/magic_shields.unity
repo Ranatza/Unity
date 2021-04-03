@@ -463,9 +463,10 @@ GameObject:
   m_Component:
   - component: {fileID: 569217077}
   - component: {fileID: 569217082}
+  - component: {fileID: 569217080}
   - component: {fileID: 569217079}
   - component: {fileID: 569217078}
-  - component: {fileID: 569217080}
+  - component: {fileID: 569217081}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -519,7 +520,16 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 569217076}
   m_Enabled: 1
---- !u!114 &569217080
+--- !u!124 &569217080
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 12459264, guid: da1939c654329ec4bb4e0a167e8ce19b,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569217076}
+  m_Enabled: 1
+--- !u!114 &569217081
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -532,7 +542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 1
+  m_RequiresDepthTextureOption: 2
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []

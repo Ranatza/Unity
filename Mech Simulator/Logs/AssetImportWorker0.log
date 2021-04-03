@@ -1012,3 +1012,614 @@ Total: 4.206900 ms (FindLiveObjects: 0.681000 ms CreateObjectMapping: 0.314400 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 620.237075 seconds.
+  path: Assets/Mech 1.prefab
+  artifactKey: Guid(25aff5a182c89b043b6f6f68966ef422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech 1.prefab using Guid(25aff5a182c89b043b6f6f68966ef422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b54fd53be77a7a845b3a5432767133') in 1.213964 seconds
+  Import took 1.221389 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3608.
+Total: 3.742600 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.059600 ms  DeleteObjects: 1.108600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 127.448572 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Arcane Beam.prefab
+  artifactKey: Guid(1f7452042ec77d94ea7cece5cc4816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Arcane Beam.prefab using Guid(1f7452042ec77d94ea7cece5cc4816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a773dee8cefe89fd09ca3cde94ae9272') in 0.035672 seconds
+  Import took 0.045393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Frost Beam.prefab
+  artifactKey: Guid(dde30d1733e55b941ada7e3a234bb74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Frost Beam.prefab using Guid(dde30d1733e55b941ada7e3a234bb74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefb2b86da687b5eb1ac62dc7bef13a7') in 0.008822 seconds
+  Import took 0.019952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Life Beam.prefab
+  artifactKey: Guid(13d778ebbfff82149bdc5ed15fbda9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Life Beam.prefab using Guid(13d778ebbfff82149bdc5ed15fbda9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd81407d629fb38e5facf71e4d99a1af') in 0.011374 seconds
+  Import took 0.017152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Lightning Beam.prefab
+  artifactKey: Guid(4cda6df8f00347b4f9a35657fe9374d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Lightning Beam.prefab using Guid(4cda6df8f00347b4f9a35657fe9374d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1b46b8c619f674ed843a79ba2d2983') in 0.102285 seconds
+  Import took 0.112414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Water Beam.prefab
+  artifactKey: Guid(cc9af0e16354a3c4aaa2860db34ca4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Water Beam.prefab using Guid(cc9af0e16354a3c4aaa2860db34ca4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844622ec575258722694e728538a5eba') in 0.009387 seconds
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Fire Beam.prefab
+  artifactKey: Guid(8fe4893f4372fc84fb0c43a1c8860725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Fire Beam.prefab using Guid(8fe4893f4372fc84fb0c43a1c8860725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d332981761087394843e373c21e13da') in 0.010155 seconds
+  Import took 0.016278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Shadow Beam.prefab
+  artifactKey: Guid(f8910e850e9dcdc44bb3454608bf7f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Shadow Beam.prefab using Guid(f8910e850e9dcdc44bb3454608bf7f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e89d9c01fc0a656a0d3047c0d79a8f') in 0.007251 seconds
+  Import took 0.013904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Earth Beam.prefab
+  artifactKey: Guid(3827d5026e528924493e36340309f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Earth Beam.prefab using Guid(3827d5026e528924493e36340309f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bb0b46a0d6c97737b18113cefaaa78') in 0.006152 seconds
+  Import took 0.013704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Storm Beam.prefab
+  artifactKey: Guid(d22930b63c5f91049b1539535ad958cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Storm Beam.prefab using Guid(d22930b63c5f91049b1539535ad958cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5027de086b763a6d5f571064878e618') in 0.006937 seconds
+  Import took 0.014471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Light Beam.prefab
+  artifactKey: Guid(36346b1c7b5c7ed48aa6244c315c55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Light Beam.prefab using Guid(36346b1c7b5c7ed48aa6244c315c55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadc36fb0525504513275bd65cd83eba') in 0.008924 seconds
+  Import took 0.014241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Arcane Beam.prefab
+  artifactKey: Guid(1f7452042ec77d94ea7cece5cc4816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Arcane Beam.prefab using Guid(1f7452042ec77d94ea7cece5cc4816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a773dee8cefe89fd09ca3cde94ae9272') in 0.006047 seconds
+  Import took 0.011690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.681262 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/ArcaneBeamImpact.prefab
+  artifactKey: Guid(d6fd535eb4c308f45b5c78773315e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/ArcaneBeamImpact.prefab using Guid(d6fd535eb4c308f45b5c78773315e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013d63abd184eb1ddd4284b7f3a8c79e') in 0.014417 seconds
+  Import took 0.023005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/FireBeamImpact.prefab
+  artifactKey: Guid(7ab599370938e1948a5eb2967f1cbd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/FireBeamImpact.prefab using Guid(7ab599370938e1948a5eb2967f1cbd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70cb29f71bd00c6eaabbee5971c05e9') in 0.014158 seconds
+  Import took 0.025534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/WaterBeamImpact.prefab
+  artifactKey: Guid(75d3878d3e4132f41966e0e54fa81406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/WaterBeamImpact.prefab using Guid(75d3878d3e4132f41966e0e54fa81406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd7574bbb4dde704a01513fed1db9a8') in 0.011493 seconds
+  Import took 0.019032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LightBeamImpact.prefab
+  artifactKey: Guid(33fa9eb9b5b7b784abdb65ad8c16ee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LightBeamImpact.prefab using Guid(33fa9eb9b5b7b784abdb65ad8c16ee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57f4d8ee9eb106b86ac7f5e514d05d6') in 0.125589 seconds
+  Import took 0.132512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/FrostBeamImpact.prefab
+  artifactKey: Guid(01b32c1e97b390f4b82f26b2d4a847ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/FrostBeamImpact.prefab using Guid(01b32c1e97b390f4b82f26b2d4a847ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cec302e98924d5979ae2a804bef85c3') in 0.007890 seconds
+  Import took 0.014290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LifeBeamImpact.prefab
+  artifactKey: Guid(192a807de5bc83c498bf94f94e6f6b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LifeBeamImpact.prefab using Guid(192a807de5bc83c498bf94f94e6f6b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6652c99bffa22fcfb7eedf936bd424ad') in 0.008219 seconds
+  Import took 0.016032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/ShadowBeamImpact.prefab
+  artifactKey: Guid(66daa82b181beef4d9465affcd97d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/ShadowBeamImpact.prefab using Guid(66daa82b181beef4d9465affcd97d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2276d7caaa1efde8a0d1bd94e0f001d') in 0.010457 seconds
+  Import took 0.016825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/EarthBeamImpact.prefab
+  artifactKey: Guid(887fc254e5b40474e9591de0ae156bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/EarthBeamImpact.prefab using Guid(887fc254e5b40474e9591de0ae156bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01663ce6d5f414a953fb706a373156f7') in 0.009581 seconds
+  Import took 0.018745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LightningBeamImpact.prefab
+  artifactKey: Guid(1cf4c9887d4c6874692243f51e44796a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LightningBeamImpact.prefab using Guid(1cf4c9887d4c6874692243f51e44796a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b465454249b75feea759b5b1167f1a') in 0.009681 seconds
+  Import took 0.015612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/StormBeamImpact.prefab
+  artifactKey: Guid(325422360e5730141adac507f0c6a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/StormBeamImpact.prefab using Guid(325422360e5730141adac507f0c6a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e040b1f4e24597030d99ed591ef882') in 0.010458 seconds
+  Import took 0.019395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011908 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/StormBeamImpact.prefab
+  artifactKey: Guid(325422360e5730141adac507f0c6a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/StormBeamImpact.prefab using Guid(325422360e5730141adac507f0c6a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e040b1f4e24597030d99ed591ef882') in 0.007509 seconds
+  Import took 0.015048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.567814 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ArcaneBeamStart.prefab
+  artifactKey: Guid(8396fce600232da4dbbf9a8c440e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ArcaneBeamStart.prefab using Guid(8396fce600232da4dbbf9a8c440e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bc9b5c996432d90512244c78c628ad') in 0.007215 seconds
+  Import took 0.014159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LightBeamStart.prefab
+  artifactKey: Guid(79baaa55e641be0439275b8dae7af740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LightBeamStart.prefab using Guid(79baaa55e641be0439275b8dae7af740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75d4452d503949dd1f56157daa251b2') in 0.009433 seconds
+  Import took 0.015254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LightningBeamStart.prefab
+  artifactKey: Guid(90b9eccaf45751f4dbef1da136dfb7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LightningBeamStart.prefab using Guid(90b9eccaf45751f4dbef1da136dfb7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a211764caed3506c5de4b1d9fa3c234c') in 0.009805 seconds
+  Import took 0.018773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ShadowBeamStart.prefab
+  artifactKey: Guid(7746042b76677fa4897bba11a2964416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ShadowBeamStart.prefab using Guid(7746042b76677fa4897bba11a2964416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34da8000934aefe82b639d9dfb09f2a1') in 0.008979 seconds
+  Import took 0.014618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/FrostBeamStart.prefab
+  artifactKey: Guid(0b1a09f32ca9ca84b8ffecba7c9410b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/FrostBeamStart.prefab using Guid(0b1a09f32ca9ca84b8ffecba7c9410b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c3b8450a4beac739580687b3639c19') in 0.008244 seconds
+  Import took 0.015716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/FireBeamStart.prefab
+  artifactKey: Guid(ea72aca1214b2ab4daca57345d563d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/FireBeamStart.prefab using Guid(ea72aca1214b2ab4daca57345d563d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f36ff7b00749c39f8b3b7a4829a5b9') in 0.008916 seconds
+  Import took 0.015018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LifeBeamStart.prefab
+  artifactKey: Guid(3b44f00d62229884a99c8bd5c5a1a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LifeBeamStart.prefab using Guid(3b44f00d62229884a99c8bd5c5a1a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3e78fdc4e4e18ae1f720db01e3401e') in 0.009881 seconds
+  Import took 0.016751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/StormBeamStart.prefab
+  artifactKey: Guid(170db8eff3ea73c41b1a515951f03d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/StormBeamStart.prefab using Guid(170db8eff3ea73c41b1a515951f03d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426fde1b92ed9659ac38d7dfed42ebb3') in 0.011829 seconds
+  Import took 0.018701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ArcaneBeamStart.prefab
+  artifactKey: Guid(8396fce600232da4dbbf9a8c440e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ArcaneBeamStart.prefab using Guid(8396fce600232da4dbbf9a8c440e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bc9b5c996432d90512244c78c628ad') in 0.007343 seconds
+  Import took 0.017569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/WaterBeamStart.prefab
+  artifactKey: Guid(44b39dcf5d036464b9791669232296aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/WaterBeamStart.prefab using Guid(44b39dcf5d036464b9791669232296aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0708898a76fadc58be13dd7fc5bfbbe5') in 0.009751 seconds
+  Import took 0.015572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/EarthBeamStart.prefab
+  artifactKey: Guid(cf0bdea0aea918340a7a202187457d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/EarthBeamStart.prefab using Guid(cf0bdea0aea918340a7a202187457d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd63235fd49686576e314a3f05a995c0') in 0.007840 seconds
+  Import took 0.016000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.049883 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/glow01(Modular).mat
+  artifactKey: Guid(01e0386bc3c5b2f45b5b2735939daa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/glow01(Modular).mat using Guid(01e0386bc3c5b2f45b5b2735939daa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2221dfb73776114a61571e560d79e9') in 0.210152 seconds
+  Import took 0.220722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.140724 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningArcs2x2.mat
+  artifactKey: Guid(5cd2c2b5c00d4fb48839af0e5f84d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningArcs2x2.mat using Guid(5cd2c2b5c00d4fb48839af0e5f84d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdad907287b87ea9cc8d922ab9014ed') in 0.023217 seconds
+  Import took 0.030644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793698 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat
+  artifactKey: Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat using Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e8436762fed39247e5d4ed513ecf85') in 0.023580 seconds
+  Import took 0.030506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002227 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat
+  artifactKey: Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat using Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e8436762fed39247e5d4ed513ecf85') in 0.020180 seconds
+  Import took 0.028146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617060 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningBall.mat
+  artifactKey: Guid(776a939b6f835cf4db6390f59965a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningBall.mat using Guid(776a939b6f835cf4db6390f59965a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3870ca68e61fa32c6666fdd93cdb0976') in 0.095930 seconds
+  Import took 0.104457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.426569 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade.unitypackage
+  artifactKey: Guid(7f02a1dd846b70e4083ed4cfd8388abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade.unitypackage using Guid(7f02a1dd846b70e4083ed4cfd8388abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69854c6b1373e854e2ba2e5ea55c3396') in 0.059689 seconds
+  Import took 0.068055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.349068 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage
+  artifactKey: Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage using Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef132a071f464838e614d60bdae8665a') in 0.004713 seconds
+  Import took 0.016701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006979 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage
+  artifactKey: Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage using Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef132a071f464838e614d60bdae8665a') in 0.058865 seconds
+  Import took 0.065492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.015230 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat
+  artifactKey: Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat using Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811d8c7a124d34aa045066a8c5244036') in 0.093526 seconds
+  Import took 0.103059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015700 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat
+  artifactKey: Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat using Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811d8c7a124d34aa045066a8c5244036') in 0.166156 seconds
+  Import took 0.175487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 135.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3650.
+Total: 4.806700 ms (FindLiveObjects: 0.449600 ms CreateObjectMapping: 0.206300 ms MarkObjects: 2.595600 ms  DeleteObjects: 1.554100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 60.785572 seconds.
+  path: Assets/ArcaneExplosionMega Variant.prefab
+  artifactKey: Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcaneExplosionMega Variant.prefab using Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda7dccdb595bf2f2a83711fcb17e95f') in 0.034208 seconds
+  Import took 0.042245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.556 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 135.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3654.
+Total: 4.578700 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.160000 ms MarkObjects: 2.568400 ms  DeleteObjects: 1.424100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 14.008362 seconds.
+  path: Assets/ArcaneExplosionMega Variant.prefab
+  artifactKey: Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcaneExplosionMega Variant.prefab using Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef432a09906e69e5c04f76490e6c1f2') in 0.048607 seconds
+  Import took 0.057771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.110925 seconds.
+  path: Assets/ArcaneExplosionMega Variant.prefab
+  artifactKey: Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcaneExplosionMega Variant.prefab using Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef432a09906e69e5c04f76490e6c1f2') in 0.010688 seconds
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.477232 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81320b3cd8a1a3d750cca3b32b08e672') in 0.005420 seconds
+  Import took 0.012044 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 17.179 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3658.
+Total: 3.359800 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.114600 ms MarkObjects: 1.932500 ms  DeleteObjects: 1.031700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 33.751560 seconds.
+  path: Assets/PlasmaBullet.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlasmaBullet.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd8a968fa657e7f8bcb7b18d01878a9') in 0.178635 seconds
+  Import took 0.185840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.956710 seconds.
+  path: Assets/PlasmaBullet.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlasmaBullet.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd8a968fa657e7f8bcb7b18d01878a9') in 0.026068 seconds
+  Import took 0.033135 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 15.923 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.2 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3698.
+Total: 4.312200 ms (FindLiveObjects: 0.465300 ms CreateObjectMapping: 0.194300 ms MarkObjects: 2.592900 ms  DeleteObjects: 1.058400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3702.
+Total: 3.449200 ms (FindLiveObjects: 0.313700 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.003700 ms  DeleteObjects: 0.981200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
