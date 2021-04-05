@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/UnityProjects/final-project-tetra-force/Mech Simulator
+C:/Users/kenny/Documents/GitHub/Unity/Mech Simulator
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57391
-Successfully changed project path to: C:/UnityProjects/final-project-tetra-force/Mech Simulator
-C:/UnityProjects/final-project-tetra-force/Mech Simulator
+62737
+Successfully changed project path to: C:/Users/kenny/Documents/GitHub/Unity/Mech Simulator
+C:/Users/kenny/Documents/GitHub/Unity/Mech Simulator
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.91 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 64.58 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.92 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/UnityProjects/final-project-tetra-force/Mech Simulator/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kenny/Documents/GitHub/Unity/Mech Simulator/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,151 +35,29 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002961 seconds.
+Registered in 0.002847 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 58.73 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.624 seconds
+- Completed reload, in  1.342 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001529 seconds.
+Registered in 0.004248 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2417 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.0 MB.
-System memory in use after: 108.8 MB.
-
-Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2823.
-Total: 4.255500 ms (FindLiveObjects: 0.344200 ms CreateObjectMapping: 0.162600 ms MarkObjects: 1.857800 ms  DeleteObjects: 1.889400 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565fba1a13f97c68b9c7f204361b9afd') in 0.067457 seconds
-  Import took 0.072024 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001556 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.768 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2342 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 107.9 MB.
-System memory in use after: 105.7 MB.
-
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2826.
-Total: 3.255900 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.097800 ms MarkObjects: 1.584700 ms  DeleteObjects: 1.331900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.514213 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(d334fececaab8f444bafb054f8f077aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(d334fececaab8f444bafb054f8f077aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b705e080c6a699581d05f8a4d5b2e2') in 0.041085 seconds
-  Import took 0.046553 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001709 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2421 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 111.7 MB.
-System memory in use after: 110.5 MB.
-
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2923.
-Total: 8.562100 ms (FindLiveObjects: 0.278900 ms CreateObjectMapping: 0.169200 ms MarkObjects: 7.319900 ms  DeleteObjects: 0.792500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001628 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 124.7 MB.
-System memory in use after: 123.5 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3336.
-Total: 2.994200 ms (FindLiveObjects: 0.351600 ms CreateObjectMapping: 0.185500 ms MarkObjects: 1.811000 ms  DeleteObjects: 0.644700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002991 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.93 ms.
+Refreshing native plugins compatible for Editor in 80.19 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
@@ -188,97 +66,1560 @@ RoslynAnalysisRunner has terminated.
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\UnityProjects\final-project-tetra-force\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\UnityProjects\final-project-tetra-force\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.817 seconds
+- Completed reload, in  1.342 seconds
 Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2837 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.7 MB.
-System memory in use after: 124.5 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 2959 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 134.4 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3366.
-Total: 2.833400 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.112900 ms MarkObjects: 1.733600 ms  DeleteObjects: 0.702100 ms)
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3383.
+Total: 4.655800 ms (FindLiveObjects: 0.333500 ms CreateObjectMapping: 0.185200 ms MarkObjects: 2.755100 ms  DeleteObjects: 1.380800 ms)
 
 ========================================================================
-Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.3 MB.
-System memory in use after: 69.1 MB.
+Received Import Request.
+  path: Assets/ArcaneExplosionMega Variant.prefab
+  artifactKey: Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcaneExplosionMega Variant.prefab using Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff4e5977af4a03ef3d3cebb799508e5c') in 0.085588 seconds
+  Import took 0.092598 seconds .
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3366.
-Total: 3.333300 ms (FindLiveObjects: 0.295100 ms CreateObjectMapping: 0.144000 ms MarkObjects: 2.174200 ms  DeleteObjects: 0.718900 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Sphere 1.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sphere 1.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb0dc7961aeeebe3d791b957465a1ab') in 0.382270 seconds
+  Import took 0.390283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Mech.prefab
+  artifactKey: Guid(f2ba1abaf60c8534cba8dc03b13ff807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech.prefab using Guid(f2ba1abaf60c8534cba8dc03b13ff807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7fd3ab373e46471a916bedbded79ea') in 0.404666 seconds
+  Import took 0.412066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.729930 seconds.
+  path: Assets/MagicArsenal/Effects/Models/mp_shield.FBX
+  artifactKey: Guid(1aa60d6d8e1bb1445b0486ffb8b130fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Models/mp_shield.FBX using Guid(1aa60d6d8e1bb1445b0486ffb8b130fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3f43ab895cf9eb3919edfdc13afbc4') in 0.098450 seconds
+  Import took 0.103554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.979692 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/ArcaneWall.prefab
+  artifactKey: Guid(3e131aa0e7d8b43429a09642f5d0bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/ArcaneWall.prefab using Guid(3e131aa0e7d8b43429a09642f5d0bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59117db999e18d4a47afa6542142d93') in 0.005257 seconds
+  Import took 0.009706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/lightning_new_bolt.png
+  artifactKey: Guid(f0873378ad619d84dbaf1e997133a893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/lightning_new_bolt.png using Guid(f0873378ad619d84dbaf1e997133a893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f2f8e89019cfaf7d0b5f6da7b9abf3') in 0.016723 seconds
+  Import took 0.021026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/lightning_new_arcs_2x2.png
+  artifactKey: Guid(7156646a7cfd5f34fbcc28f89706a487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/lightning_new_arcs_2x2.png using Guid(7156646a7cfd5f34fbcc28f89706a487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d115c89c919983a50b10031305f974') in 0.008494 seconds
+  Import took 0.012679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_bolt(Modular).mat
+  artifactKey: Guid(89717682f45f31845b7c1811f546acc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_bolt(Modular).mat using Guid(89717682f45f31845b7c1811f546acc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '210906e6d58d0911cc97c20160d057a9') in 0.025438 seconds
+  Import took 0.029648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_arcs_2x2.png
+  artifactKey: Guid(3a5b6df92f410674c9d5aa21125a584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_arcs_2x2.png using Guid(3a5b6df92f410674c9d5aa21125a584a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196b204a0d1ac874a0cfc0a842abbf47') in 0.009141 seconds
+  Import took 0.013331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Walls/Circular Wall/ArcaneWallCircle.prefab
+  artifactKey: Guid(d012fbe8542f89b4eb619529cdec2808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Walls/Circular Wall/ArcaneWallCircle.prefab using Guid(d012fbe8542f89b4eb619529cdec2808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0905ad81af667fafb491abdc4dcf55ff') in 0.005209 seconds
+  Import took 0.009537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_arc.png
+  artifactKey: Guid(e09b86da7bfc7df45bbc20bbb917ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_arc.png using Guid(e09b86da7bfc7df45bbc20bbb917ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0f90b3390d6278a3a0b5afde9ae456') in 0.008770 seconds
+  Import took 0.013867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/lightning_new_arc.png
+  artifactKey: Guid(e545a56101174b44cae5fe18850eead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/lightning_new_arc.png using Guid(e545a56101174b44cae5fe18850eead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ed2acac677ce30fe7b4a3497f6e335c') in 0.007872 seconds
+  Import took 0.012455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/lightning_new_bolt2.png
+  artifactKey: Guid(eb9c81496ae456a4d8bd00f33e40aa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/lightning_new_bolt2.png using Guid(eb9c81496ae456a4d8bd00f33e40aa7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfb7b8026e21daf11666766e9d7cb1c') in 0.008207 seconds
+  Import took 0.012555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_arc.png
+  artifactKey: Guid(e09b86da7bfc7df45bbc20bbb917ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_arc.png using Guid(e09b86da7bfc7df45bbc20bbb917ee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0f90b3390d6278a3a0b5afde9ae456') in 0.006395 seconds
+  Import took 0.010431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_glow(Modular).mat
+  artifactKey: Guid(4c1cdcf1d599b204c8ed02483a89434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_glow(Modular).mat using Guid(4c1cdcf1d599b204c8ed02483a89434d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72fc3606288bb18abffe4be4e6c9cb3') in 0.010371 seconds
+  Import took 0.014520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Metal textures pack/pattern 05/New Material.mat
+  artifactKey: Guid(6c20f23af13b7b34899b635d82bbf6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Metal textures pack/pattern 05/New Material.mat using Guid(6c20f23af13b7b34899b635d82bbf6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740ac3395d72aa97008e5d5dc5b6558d') in 0.009013 seconds
+  Import took 0.014088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_arc(Modular).mat
+  artifactKey: Guid(df489825dda9f514d8fe0bf1b181b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_arc(Modular).mat using Guid(df489825dda9f514d8fe0bf1b181b8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a381f84b3c88dec41e26fc572bf5c793') in 0.010352 seconds
+  Import took 0.014496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_arcs_2x2(Modular).mat
+  artifactKey: Guid(5762132fb29d14d4e9347bf410f1489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_arcs_2x2(Modular).mat using Guid(5762132fb29d14d4e9347bf410f1489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a263d5fee903fecaa613e0cb84e66266') in 0.011685 seconds
+  Import took 0.015918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_bolt.png
+  artifactKey: Guid(416280081dab2ab4e92a092decfb5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_bolt.png using Guid(416280081dab2ab4e92a092decfb5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba83bf89c4b7a539570aa5281b43840f') in 0.007466 seconds
+  Import took 0.011735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_arcs_2x2(Modular).mat
+  artifactKey: Guid(5762132fb29d14d4e9347bf410f1489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_arcs_2x2(Modular).mat using Guid(5762132fb29d14d4e9347bf410f1489f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a263d5fee903fecaa613e0cb84e66266') in 0.010496 seconds
+  Import took 0.014523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_glow2.png
+  artifactKey: Guid(a8486029053105e4bbccaa09ea67e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_glow2.png using Guid(a8486029053105e4bbccaa09ea67e35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50714811db653eba341a7d0f7f68d5b1') in 0.010281 seconds
+  Import took 0.014409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_bolt.png
+  artifactKey: Guid(416280081dab2ab4e92a092decfb5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_bolt.png using Guid(416280081dab2ab4e92a092decfb5d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba83bf89c4b7a539570aa5281b43840f') in 0.006512 seconds
+  Import took 0.011003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningArcNew.mat
+  artifactKey: Guid(98e162a01c5c0314f9a25dbd535f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningArcNew.mat using Guid(98e162a01c5c0314f9a25dbd535f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc8b7f50eecbae1227f2edde5059d94') in 0.009625 seconds
+  Import took 0.013944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/lightning_new_glow2.png
+  artifactKey: Guid(660003fcc9c2feb4fbe48df2b6bf0690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/lightning_new_glow2.png using Guid(660003fcc9c2feb4fbe48df2b6bf0690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae091966080d1fe905f66a9cc4b18189') in 0.010823 seconds
+  Import took 0.015024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_glow2(Modular).mat
+  artifactKey: Guid(55e3417e34d166e48b1842d8e7459e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_glow2(Modular).mat using Guid(55e3417e34d166e48b1842d8e7459e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a0b9ed9dc52b21b9f2bbedfbb251f2') in 0.011914 seconds
+  Import took 0.016380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_glow.png
+  artifactKey: Guid(5ccd2054c1d9f274aaa3e0ca678fc583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Textures/Modular/lightning_new_glow.png using Guid(5ccd2054c1d9f274aaa3e0ca678fc583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0951800e5ae7d3c52650686a12eea07f') in 0.008661 seconds
+  Import took 0.013130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011771 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_glow2(Modular).mat
+  artifactKey: Guid(55e3417e34d166e48b1842d8e7459e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/lightning_new_glow2(Modular).mat using Guid(55e3417e34d166e48b1842d8e7459e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a0b9ed9dc52b21b9f2bbedfbb251f2') in 0.010905 seconds
+  Import took 0.015481 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002880 seconds.
+Registered in 0.003208 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.10 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\UnityProjects\final-project-tetra-force\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\UnityProjects\final-project-tetra-force\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
 
 (Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
+- Completed reload, in  0.947 seconds
 Platform modules already initialized, skipping
 Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 2829 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 125.4 MB.
-System memory in use after: 124.2 MB.
+Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.7 MB.
+System memory in use after: 134.2 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 3370.
-Total: 3.055900 ms (FindLiveObjects: 0.302800 ms CreateObjectMapping: 0.146300 ms MarkObjects: 1.857500 ms  DeleteObjects: 0.747700 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3475.
+Total: 4.376900 ms (FindLiveObjects: 0.346500 ms CreateObjectMapping: 0.214600 ms MarkObjects: 2.799600 ms  DeleteObjects: 1.013600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 449.374229 seconds.
+  path: Assets/MyScripts
+  artifactKey: Guid(9b6b969d40465cc49b47eee03f529bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts using Guid(9b6b969d40465cc49b47eee03f529bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c11dd2d1bbbc3766c67c81b1b995c4') in 0.007896 seconds
+  Import took 0.013061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032419 seconds.
+  path: Assets/MyScripts/Mech.prefab
+  artifactKey: Guid(d25c64c55be678a4ba2328131cb0a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/Mech.prefab using Guid(d25c64c55be678a4ba2328131cb0a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81d168c13c65221f9c572a0077d1670') in 0.338969 seconds
+  Import took 0.343916 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003217 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.16 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.211 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2855 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 134.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3515.
+Total: 4.369600 ms (FindLiveObjects: 0.335400 ms CreateObjectMapping: 0.133000 ms MarkObjects: 2.726800 ms  DeleteObjects: 1.172600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 48395.726654 seconds.
+  path: Assets/MyScripts/VRMapping.cs
+  artifactKey: Guid(bdd81f299a9c3524784d2a53595f8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/VRMapping.cs using Guid(bdd81f299a9c3524784d2a53595f8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0bdc2db004e8e10892b64f94947da9') in 0.818516 seconds
+  Import took 0.905072 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.249717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.170 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 134.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3520.
+Total: 3.346700 ms (FindLiveObjects: 0.330700 ms CreateObjectMapping: 0.132900 ms MarkObjects: 1.968800 ms  DeleteObjects: 0.913100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1002.365499 seconds.
+  path: Assets/MyScripts/VRMapping.cs
+  artifactKey: Guid(bdd81f299a9c3524784d2a53595f8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/VRMapping.cs using Guid(bdd81f299a9c3524784d2a53595f8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24eef7e93aeb1513c74b7ae89c26f633') in 0.007263 seconds
+  Import took 0.013682 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003699 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.9 MB.
+System memory in use after: 134.3 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3524.
+Total: 3.504600 ms (FindLiveObjects: 0.291500 ms CreateObjectMapping: 0.139800 ms MarkObjects: 2.119900 ms  DeleteObjects: 0.952100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 373.177338 seconds.
+  path: Assets/MyScripts/VRMapping.cs
+  artifactKey: Guid(bdd81f299a9c3524784d2a53595f8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/VRMapping.cs using Guid(bdd81f299a9c3524784d2a53595f8b88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5671a5d609654676c17791bdc66c50c') in 0.005119 seconds
+  Import took 0.009544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.300204 seconds.
+  path: Assets/MyScripts/Movement.cs
+  artifactKey: Guid(c15cb7f4a0510174a9261eea6f93b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/Movement.cs using Guid(c15cb7f4a0510174a9261eea6f93b35d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f6f7e3638626948a6be4ae212c0563') in 0.003664 seconds
+  Import took 0.009603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.395092 seconds.
+  path: Assets/MyScripts/SelfDestruct.cs
+  artifactKey: Guid(607b96904cfffff45a99f98263e71c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/SelfDestruct.cs using Guid(607b96904cfffff45a99f98263e71c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a2f94905dacf95e0f9780b2696bc2a') in 0.004285 seconds
+  Import took 0.008763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.404775 seconds.
+  path: Assets/MyScripts/Shoot.cs
+  artifactKey: Guid(d8544712a72f1c24fb2e173726933e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScripts/Shoot.cs using Guid(d8544712a72f1c24fb2e173726933e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f5c12a5d0701b8bb2a401221c46bd7') in 0.004263 seconds
+  Import took 0.009033 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.302 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 134.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3528.
+Total: 4.770800 ms (FindLiveObjects: 0.506700 ms CreateObjectMapping: 0.229400 ms MarkObjects: 2.719300 ms  DeleteObjects: 1.313500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 ========================================================================
 Received Prepare
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.1 MB.
-System memory in use after: 68.9 MB.
+Registering precompiled user dll's ...
+Registered in 0.003386 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3370.
-Total: 3.222400 ms (FindLiveObjects: 0.259600 ms CreateObjectMapping: 0.126700 ms MarkObjects: 2.076100 ms  DeleteObjects: 0.759000 ms)
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.081 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3532.
+Total: 4.676400 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.119200 ms MarkObjects: 2.502500 ms  DeleteObjects: 1.741200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.464 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.19 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3536.
+Total: 278.408800 ms (FindLiveObjects: 0.544500 ms CreateObjectMapping: 0.224900 ms MarkObjects: 276.093500 ms  DeleteObjects: 1.544100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.24 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.213 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3540.
+Total: 10.172100 ms (FindLiveObjects: 0.461100 ms CreateObjectMapping: 0.181100 ms MarkObjects: 4.142600 ms  DeleteObjects: 5.385700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003992 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.426 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 134.4 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3544.
+Total: 5.378200 ms (FindLiveObjects: 0.560300 ms CreateObjectMapping: 0.214700 ms MarkObjects: 3.204000 ms  DeleteObjects: 1.397000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003725 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.376 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 134.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3548.
+Total: 4.572200 ms (FindLiveObjects: 0.311100 ms CreateObjectMapping: 0.117400 ms MarkObjects: 2.426300 ms  DeleteObjects: 1.715200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 1315.255577 seconds.
+  path: Assets/MagicArsenal/Effects
+  artifactKey: Guid(62f7d4e224537c045b67a4ae62fa7867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects using Guid(62f7d4e224537c045b67a4ae62fa7867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6bd58c14310de37c8aeb04f778e4c6') in 0.011851 seconds
+  Import took 0.019819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.056570 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs
+  artifactKey: Guid(72634127c2d690e4fb296a4319563f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs using Guid(72634127c2d690e4fb296a4319563f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d93d0ad9638924ab6492465fee719c2') in 0.004614 seconds
+  Import took 0.011525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.596843 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams
+  artifactKey: Guid(47836203402d0a943a27f7982f715b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams using Guid(47836203402d0a943a27f7982f715b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c145161563c5118b55e1197ffda83712') in 0.007570 seconds
+  Import took 0.013725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001029 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams
+  artifactKey: Guid(47836203402d0a943a27f7982f715b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams using Guid(47836203402d0a943a27f7982f715b3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c145161563c5118b55e1197ffda83712') in 0.008692 seconds
+  Import took 0.021014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.132202 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams
+  artifactKey: Guid(6fd3c9e0474bedc42972b2b2f6a4337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams using Guid(6fd3c9e0474bedc42972b2b2f6a4337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0acdbd5a4e4ecee619d9a3330d91821') in 0.003780 seconds
+  Import took 0.011970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040945 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/ArcaneBeamStatic.prefab
+  artifactKey: Guid(95960c29d7cc6f649afbb4358930ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/ArcaneBeamStatic.prefab using Guid(95960c29d7cc6f649afbb4358930ecdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0032002c40724757c64a5c2ed775fd42') in 0.383917 seconds
+  Import took 0.389896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/StormBeamStatic.prefab
+  artifactKey: Guid(8e4184a824fdfc340831af4886dff55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/StormBeamStatic.prefab using Guid(8e4184a824fdfc340831af4886dff55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57f4646148c3408e01865a7ce7a279f') in 0.103168 seconds
+  Import took 0.109179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/ShadowBeamStatic.prefab
+  artifactKey: Guid(2756680bebe4c504889abcb53a10e470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/ShadowBeamStatic.prefab using Guid(2756680bebe4c504889abcb53a10e470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c861741a5212e1bd348a394c9a4027') in 0.096095 seconds
+  Import took 0.103785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LightningBeamStatic.prefab
+  artifactKey: Guid(24070aaeb9133d44aa92828a2c4af971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LightningBeamStatic.prefab using Guid(24070aaeb9133d44aa92828a2c4af971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f104d9c1f479e6b92d2beb73d857df4f') in 0.091600 seconds
+  Import took 0.098077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/FireBeamStatic.prefab
+  artifactKey: Guid(bdd74ee3224f3f34ba4dd9684bf50ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/FireBeamStatic.prefab using Guid(bdd74ee3224f3f34ba4dd9684bf50ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6a19f814dd98e2416f6db9d56da64d') in 0.132808 seconds
+  Import took 0.138795 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LifeBeamStatic.prefab
+  artifactKey: Guid(52bda26bb63e41142a7e01ae28f773fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LifeBeamStatic.prefab using Guid(52bda26bb63e41142a7e01ae28f773fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bf34f5a0586de3cafa68424b11133e') in 0.126741 seconds
+  Import took 0.134258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/EarthBeamStatic.prefab
+  artifactKey: Guid(ebd4d0cd640837542ba5062ccbdd10b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/EarthBeamStatic.prefab using Guid(ebd4d0cd640837542ba5062ccbdd10b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e84830ed0a3a2e879bb26bc7ddaa49') in 0.095998 seconds
+  Import took 0.104346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LightBeamStatic.prefab
+  artifactKey: Guid(638096f04a15ff041a1b678936261e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/LightBeamStatic.prefab using Guid(638096f04a15ff041a1b678936261e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d585af5def20374ffc318dcc52467b5') in 0.103359 seconds
+  Import took 0.110424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/FrostBeamStatic.prefab
+  artifactKey: Guid(9b866c02d86acff4495a8b8653cf331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/FrostBeamStatic.prefab using Guid(9b866c02d86acff4495a8b8653cf331a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f15309ca0f5ea028fc85c0fa0eaa40') in 0.116511 seconds
+  Import took 0.123527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/WaterBeamStatic.prefab
+  artifactKey: Guid(855abc961d607e748b7217637f203ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Static Beams/WaterBeamStatic.prefab using Guid(855abc961d607e748b7217637f203ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77eb68b751c10e0d8d03ad87385bee5') in 0.120270 seconds
+  Import took 0.125539 seconds .
 
 ========================================================================
 Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.26 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.530 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3552.
+Total: 5.665800 ms (FindLiveObjects: 1.061000 ms CreateObjectMapping: 0.495000 ms MarkObjects: 2.573400 ms  DeleteObjects: 1.534500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003427 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.649 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3556.
+Total: 4.543200 ms (FindLiveObjects: 0.302300 ms CreateObjectMapping: 0.176900 ms MarkObjects: 3.032000 ms  DeleteObjects: 1.030300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004230 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3560.
+Total: 4.357100 ms (FindLiveObjects: 0.486700 ms CreateObjectMapping: 0.208800 ms MarkObjects: 2.546300 ms  DeleteObjects: 1.113700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.214 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3564.
+Total: 4.381400 ms (FindLiveObjects: 0.364300 ms CreateObjectMapping: 0.160700 ms MarkObjects: 2.631100 ms  DeleteObjects: 1.223800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.15 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.266 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3568.
+Total: 4.206900 ms (FindLiveObjects: 0.681000 ms CreateObjectMapping: 0.314400 ms MarkObjects: 2.098200 ms  DeleteObjects: 1.111500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 620.237075 seconds.
+  path: Assets/Mech 1.prefab
+  artifactKey: Guid(25aff5a182c89b043b6f6f68966ef422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mech 1.prefab using Guid(25aff5a182c89b043b6f6f68966ef422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b54fd53be77a7a845b3a5432767133') in 1.213964 seconds
+  Import took 1.221389 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.487 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 134.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3608.
+Total: 3.742600 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.059600 ms  DeleteObjects: 1.108600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 127.448572 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Arcane Beam.prefab
+  artifactKey: Guid(1f7452042ec77d94ea7cece5cc4816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Arcane Beam.prefab using Guid(1f7452042ec77d94ea7cece5cc4816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a773dee8cefe89fd09ca3cde94ae9272') in 0.035672 seconds
+  Import took 0.045393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Frost Beam.prefab
+  artifactKey: Guid(dde30d1733e55b941ada7e3a234bb74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Frost Beam.prefab using Guid(dde30d1733e55b941ada7e3a234bb74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cefb2b86da687b5eb1ac62dc7bef13a7') in 0.008822 seconds
+  Import took 0.019952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Life Beam.prefab
+  artifactKey: Guid(13d778ebbfff82149bdc5ed15fbda9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Life Beam.prefab using Guid(13d778ebbfff82149bdc5ed15fbda9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd81407d629fb38e5facf71e4d99a1af') in 0.011374 seconds
+  Import took 0.017152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Lightning Beam.prefab
+  artifactKey: Guid(4cda6df8f00347b4f9a35657fe9374d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Lightning Beam.prefab using Guid(4cda6df8f00347b4f9a35657fe9374d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1b46b8c619f674ed843a79ba2d2983') in 0.102285 seconds
+  Import took 0.112414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Water Beam.prefab
+  artifactKey: Guid(cc9af0e16354a3c4aaa2860db34ca4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Water Beam.prefab using Guid(cc9af0e16354a3c4aaa2860db34ca4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844622ec575258722694e728538a5eba') in 0.009387 seconds
+  Import took 0.016205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Fire Beam.prefab
+  artifactKey: Guid(8fe4893f4372fc84fb0c43a1c8860725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Fire Beam.prefab using Guid(8fe4893f4372fc84fb0c43a1c8860725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d332981761087394843e373c21e13da') in 0.010155 seconds
+  Import took 0.016278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Shadow Beam.prefab
+  artifactKey: Guid(f8910e850e9dcdc44bb3454608bf7f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Shadow Beam.prefab using Guid(f8910e850e9dcdc44bb3454608bf7f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e89d9c01fc0a656a0d3047c0d79a8f') in 0.007251 seconds
+  Import took 0.013904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Earth Beam.prefab
+  artifactKey: Guid(3827d5026e528924493e36340309f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Earth Beam.prefab using Guid(3827d5026e528924493e36340309f078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bb0b46a0d6c97737b18113cefaaa78') in 0.006152 seconds
+  Import took 0.013704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Storm Beam.prefab
+  artifactKey: Guid(d22930b63c5f91049b1539535ad958cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Storm Beam.prefab using Guid(d22930b63c5f91049b1539535ad958cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5027de086b763a6d5f571064878e618') in 0.006937 seconds
+  Import took 0.014471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Light Beam.prefab
+  artifactKey: Guid(36346b1c7b5c7ed48aa6244c315c55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Light Beam.prefab using Guid(36346b1c7b5c7ed48aa6244c315c55cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cadc36fb0525504513275bd65cd83eba') in 0.008924 seconds
+  Import took 0.014241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Arcane Beam.prefab
+  artifactKey: Guid(1f7452042ec77d94ea7cece5cc4816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Beam/Arcane Beam.prefab using Guid(1f7452042ec77d94ea7cece5cc4816fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a773dee8cefe89fd09ca3cde94ae9272') in 0.006047 seconds
+  Import took 0.011690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.681262 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/ArcaneBeamImpact.prefab
+  artifactKey: Guid(d6fd535eb4c308f45b5c78773315e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/ArcaneBeamImpact.prefab using Guid(d6fd535eb4c308f45b5c78773315e81c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013d63abd184eb1ddd4284b7f3a8c79e') in 0.014417 seconds
+  Import took 0.023005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/FireBeamImpact.prefab
+  artifactKey: Guid(7ab599370938e1948a5eb2967f1cbd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/FireBeamImpact.prefab using Guid(7ab599370938e1948a5eb2967f1cbd66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70cb29f71bd00c6eaabbee5971c05e9') in 0.014158 seconds
+  Import took 0.025534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000496 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/WaterBeamImpact.prefab
+  artifactKey: Guid(75d3878d3e4132f41966e0e54fa81406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/WaterBeamImpact.prefab using Guid(75d3878d3e4132f41966e0e54fa81406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd7574bbb4dde704a01513fed1db9a8') in 0.011493 seconds
+  Import took 0.019032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LightBeamImpact.prefab
+  artifactKey: Guid(33fa9eb9b5b7b784abdb65ad8c16ee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LightBeamImpact.prefab using Guid(33fa9eb9b5b7b784abdb65ad8c16ee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57f4d8ee9eb106b86ac7f5e514d05d6') in 0.125589 seconds
+  Import took 0.132512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/FrostBeamImpact.prefab
+  artifactKey: Guid(01b32c1e97b390f4b82f26b2d4a847ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/FrostBeamImpact.prefab using Guid(01b32c1e97b390f4b82f26b2d4a847ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cec302e98924d5979ae2a804bef85c3') in 0.007890 seconds
+  Import took 0.014290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LifeBeamImpact.prefab
+  artifactKey: Guid(192a807de5bc83c498bf94f94e6f6b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LifeBeamImpact.prefab using Guid(192a807de5bc83c498bf94f94e6f6b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6652c99bffa22fcfb7eedf936bd424ad') in 0.008219 seconds
+  Import took 0.016032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/ShadowBeamImpact.prefab
+  artifactKey: Guid(66daa82b181beef4d9465affcd97d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/ShadowBeamImpact.prefab using Guid(66daa82b181beef4d9465affcd97d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2276d7caaa1efde8a0d1bd94e0f001d') in 0.010457 seconds
+  Import took 0.016825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/EarthBeamImpact.prefab
+  artifactKey: Guid(887fc254e5b40474e9591de0ae156bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/EarthBeamImpact.prefab using Guid(887fc254e5b40474e9591de0ae156bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01663ce6d5f414a953fb706a373156f7') in 0.009581 seconds
+  Import took 0.018745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LightningBeamImpact.prefab
+  artifactKey: Guid(1cf4c9887d4c6874692243f51e44796a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/LightningBeamImpact.prefab using Guid(1cf4c9887d4c6874692243f51e44796a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b465454249b75feea759b5b1167f1a') in 0.009681 seconds
+  Import took 0.015612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/StormBeamImpact.prefab
+  artifactKey: Guid(325422360e5730141adac507f0c6a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/StormBeamImpact.prefab using Guid(325422360e5730141adac507f0c6a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e040b1f4e24597030d99ed591ef882') in 0.010458 seconds
+  Import took 0.019395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011908 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/StormBeamImpact.prefab
+  artifactKey: Guid(325422360e5730141adac507f0c6a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Impact/StormBeamImpact.prefab using Guid(325422360e5730141adac507f0c6a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e040b1f4e24597030d99ed591ef882') in 0.007509 seconds
+  Import took 0.015048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.567814 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ArcaneBeamStart.prefab
+  artifactKey: Guid(8396fce600232da4dbbf9a8c440e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ArcaneBeamStart.prefab using Guid(8396fce600232da4dbbf9a8c440e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bc9b5c996432d90512244c78c628ad') in 0.007215 seconds
+  Import took 0.014159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LightBeamStart.prefab
+  artifactKey: Guid(79baaa55e641be0439275b8dae7af740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LightBeamStart.prefab using Guid(79baaa55e641be0439275b8dae7af740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75d4452d503949dd1f56157daa251b2') in 0.009433 seconds
+  Import took 0.015254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LightningBeamStart.prefab
+  artifactKey: Guid(90b9eccaf45751f4dbef1da136dfb7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LightningBeamStart.prefab using Guid(90b9eccaf45751f4dbef1da136dfb7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a211764caed3506c5de4b1d9fa3c234c') in 0.009805 seconds
+  Import took 0.018773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ShadowBeamStart.prefab
+  artifactKey: Guid(7746042b76677fa4897bba11a2964416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ShadowBeamStart.prefab using Guid(7746042b76677fa4897bba11a2964416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34da8000934aefe82b639d9dfb09f2a1') in 0.008979 seconds
+  Import took 0.014618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/FrostBeamStart.prefab
+  artifactKey: Guid(0b1a09f32ca9ca84b8ffecba7c9410b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/FrostBeamStart.prefab using Guid(0b1a09f32ca9ca84b8ffecba7c9410b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c3b8450a4beac739580687b3639c19') in 0.008244 seconds
+  Import took 0.015716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/FireBeamStart.prefab
+  artifactKey: Guid(ea72aca1214b2ab4daca57345d563d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/FireBeamStart.prefab using Guid(ea72aca1214b2ab4daca57345d563d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9f36ff7b00749c39f8b3b7a4829a5b9') in 0.008916 seconds
+  Import took 0.015018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LifeBeamStart.prefab
+  artifactKey: Guid(3b44f00d62229884a99c8bd5c5a1a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/LifeBeamStart.prefab using Guid(3b44f00d62229884a99c8bd5c5a1a247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3e78fdc4e4e18ae1f720db01e3401e') in 0.009881 seconds
+  Import took 0.016751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/StormBeamStart.prefab
+  artifactKey: Guid(170db8eff3ea73c41b1a515951f03d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/StormBeamStart.prefab using Guid(170db8eff3ea73c41b1a515951f03d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426fde1b92ed9659ac38d7dfed42ebb3') in 0.011829 seconds
+  Import took 0.018701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ArcaneBeamStart.prefab
+  artifactKey: Guid(8396fce600232da4dbbf9a8c440e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/ArcaneBeamStart.prefab using Guid(8396fce600232da4dbbf9a8c440e40ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bc9b5c996432d90512244c78c628ad') in 0.007343 seconds
+  Import took 0.017569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/WaterBeamStart.prefab
+  artifactKey: Guid(44b39dcf5d036464b9791669232296aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/WaterBeamStart.prefab using Guid(44b39dcf5d036464b9791669232296aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0708898a76fadc58be13dd7fc5bfbbe5') in 0.009751 seconds
+  Import took 0.015572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/EarthBeamStart.prefab
+  artifactKey: Guid(cf0bdea0aea918340a7a202187457d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Prefabs/Beams/Setup/Start/EarthBeamStart.prefab using Guid(cf0bdea0aea918340a7a202187457d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd63235fd49686576e314a3f05a995c0') in 0.007840 seconds
+  Import took 0.016000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.049883 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/glow01(Modular).mat
+  artifactKey: Guid(01e0386bc3c5b2f45b5b2735939daa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/glow01(Modular).mat using Guid(01e0386bc3c5b2f45b5b2735939daa3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2221dfb73776114a61571e560d79e9') in 0.210152 seconds
+  Import took 0.220722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.140724 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningArcs2x2.mat
+  artifactKey: Guid(5cd2c2b5c00d4fb48839af0e5f84d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningArcs2x2.mat using Guid(5cd2c2b5c00d4fb48839af0e5f84d407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbdad907287b87ea9cc8d922ab9014ed') in 0.023217 seconds
+  Import took 0.030644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.793698 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat
+  artifactKey: Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat using Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e8436762fed39247e5d4ed513ecf85') in 0.023580 seconds
+  Import took 0.030506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002227 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat
+  artifactKey: Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat using Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e8436762fed39247e5d4ed513ecf85') in 0.020180 seconds
+  Import took 0.028146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.617060 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningBall.mat
+  artifactKey: Guid(776a939b6f835cf4db6390f59965a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Lightning/LightningBall.mat using Guid(776a939b6f835cf4db6390f59965a8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3870ca68e61fa32c6666fdd93cdb0976') in 0.095930 seconds
+  Import took 0.104457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.426569 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade.unitypackage
+  artifactKey: Guid(7f02a1dd846b70e4083ed4cfd8388abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade.unitypackage using Guid(7f02a1dd846b70e4083ed4cfd8388abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69854c6b1373e854e2ba2e5ea55c3396') in 0.059689 seconds
+  Import took 0.068055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.349068 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage
+  artifactKey: Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage using Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef132a071f464838e614d60bdae8665a') in 0.004713 seconds
+  Import took 0.016701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006979 seconds.
+  path: Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage
+  artifactKey: Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Upgrades/Magic Arsenal URP Upgrade (Legacy Shaders).unitypackage using Guid(7cce3bfc5c23bbd488daeff300cdc135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef132a071f464838e614d60bdae8665a') in 0.058865 seconds
+  Import took 0.065492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 111.015230 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat
+  artifactKey: Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat using Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811d8c7a124d34aa045066a8c5244036') in 0.093526 seconds
+  Import took 0.103059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015700 seconds.
+  path: Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat
+  artifactKey: Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicArsenal/Effects/Materials/Missiles/Arcane/ArcaneSphere.mat using Guid(958f8c2fa0a6293479194fe50a889381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811d8c7a124d34aa045066a8c5244036') in 0.166156 seconds
+  Import took 0.175487 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.38 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 135.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3650.
+Total: 4.806700 ms (FindLiveObjects: 0.449600 ms CreateObjectMapping: 0.206300 ms MarkObjects: 2.595600 ms  DeleteObjects: 1.554100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 60.785572 seconds.
+  path: Assets/ArcaneExplosionMega Variant.prefab
+  artifactKey: Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcaneExplosionMega Variant.prefab using Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda7dccdb595bf2f2a83711fcb17e95f') in 0.034208 seconds
+  Import took 0.042245 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005124 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.556 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.0 MB.
+System memory in use after: 135.5 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3654.
+Total: 4.578700 ms (FindLiveObjects: 0.424100 ms CreateObjectMapping: 0.160000 ms MarkObjects: 2.568400 ms  DeleteObjects: 1.424100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 14.008362 seconds.
+  path: Assets/ArcaneExplosionMega Variant.prefab
+  artifactKey: Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcaneExplosionMega Variant.prefab using Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef432a09906e69e5c04f76490e6c1f2') in 0.048607 seconds
+  Import took 0.057771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.110925 seconds.
+  path: Assets/ArcaneExplosionMega Variant.prefab
+  artifactKey: Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ArcaneExplosionMega Variant.prefab using Guid(b2a3db541893dd240a446a0a62652dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef432a09906e69e5c04f76490e6c1f2') in 0.010688 seconds
+  Import took 0.017087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.477232 seconds.
+  path: Assets/Presets
+  artifactKey: Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Presets using Guid(558255460b74ec04fa70b5570e9327bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81320b3cd8a1a3d750cca3b32b08e672') in 0.005420 seconds
+  Import took 0.012044 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006565 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 17.179 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 70.1 MB.
-System memory in use after: 68.9 MB.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 135.6 MB.
 
-Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 3370.
-Total: 3.265400 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.120500 ms MarkObjects: 2.131300 ms  DeleteObjects: 0.731400 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3658.
+Total: 3.359800 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.114600 ms MarkObjects: 1.932500 ms  DeleteObjects: 1.031700 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 33.751560 seconds.
+  path: Assets/PlasmaBullet.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlasmaBullet.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd8a968fa657e7f8bcb7b18d01878a9') in 0.178635 seconds
+  Import took 0.185840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.956710 seconds.
+  path: Assets/PlasmaBullet.prefab
+  artifactKey: Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlasmaBullet.prefab using Guid(c7ba97deea0809f428dbcd8677dbd5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd8a968fa657e7f8bcb7b18d01878a9') in 0.026068 seconds
+  Import took 0.033135 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003397 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in 15.923 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.2 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3698.
+Total: 4.312200 ms (FindLiveObjects: 0.465300 ms CreateObjectMapping: 0.194300 ms MarkObjects: 2.592900 ms  DeleteObjects: 1.058400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003664 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:243 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\kenny\Documents\GitHub\Unity\Mech Simulator\Library\PackageCache\com.unity.xr.oculus@1.8.1\Runtime\OculusLoader.cs:228 
+
+(Filename: Library/PackageCache/com.unity.xr.oculus@1.8.1/Runtime/OculusLoader.cs Line: 243)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.084 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 2856 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.3 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 3702.
+Total: 3.449200 ms (FindLiveObjects: 0.313700 ms CreateObjectMapping: 0.149400 ms MarkObjects: 2.003700 ms  DeleteObjects: 0.981200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

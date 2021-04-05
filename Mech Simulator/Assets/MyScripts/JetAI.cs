@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public enum JetState { hover, seek, fight, die}
 public class JetAI : MonoBehaviour
@@ -10,6 +11,7 @@ public class JetAI : MonoBehaviour
     private GameObject player;
     private JetState state;
     private float distanceToPlayer;
+    private NavMeshAgent nav;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +19,7 @@ public class JetAI : MonoBehaviour
         player = GameObject.Find("Mech");
         state = JetState.hover;
         anim = transform.GetChild(0).GetComponent<Animator>();
+        nav = gameObject.GetComponentInParent<NavMeshAgent>();
         
         
     }
@@ -35,13 +38,18 @@ public class JetAI : MonoBehaviour
                 distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
                 if (distanceToPlayer > 15)
                 {
+                    nav.isStopped = false;
                     //move to target
                     //Debug.Log("move in");
+                    nav.SetDestination(player.transform.position);
                     transform.LookAt(player.transform.position);
                 }
                 if(distanceToPlayer < 15)                    
                 {
-                    anim.SetBool("isAttacking", true);
+                    nav.isStopped = true;
+                    StartCoroutine(DeployGuns());
+                    
+
                     //play animation
                     state = JetState.fight;
                 }
@@ -50,6 +58,12 @@ public class JetAI : MonoBehaviour
             case JetState.fight:
                 distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
                 //Debug.Log(distanceToPlayer);
+                if(distanceToPlayer < 14)
+                {
+                    Debug.Log("too close");
+                    transform.parent.position += (transform.parent.position + (transform.parent.position - player.transform.position)).normalized * Time.deltaTime * 5;
+                    //nav.SetDestination(transform.parent.position + (transform.parent.position - player.transform.position));
+                }
                 transform.LookAt(player.transform.position);
                 break;
 
@@ -58,6 +72,11 @@ public class JetAI : MonoBehaviour
 
         }
 
-
+        IEnumerator DeployGuns()
+        {
+            anim.SetBool("isAttacking", true);
+            yield return new WaitForSeconds(.5f);
+            anim.SetBool("gunsDeployed", true);
+        }
     }
 }
