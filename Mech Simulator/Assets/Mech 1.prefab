@@ -1087,6 +1087,7 @@ MonoBehaviour:
   mask:
     serializedVersion: 2
     m_Bits: 375
+  text: {fileID: 0}
   viewPoint: {fileID: 5685127916605253499}
   leftTurret: {fileID: 5273744190025180641}
   rightTurret: {fileID: 5273744189424452015}
