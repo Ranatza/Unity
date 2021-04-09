@@ -26,7 +26,8 @@ public class MagicBeamStatic : MonoBehaviour
     public float textureScrollSpeed = 0f; //How fast the texture scrolls along the beam, can be negative or positive.
     public float textureLengthScale = 1f;   //Set this to the horizontal length of your texture relative to the vertical. 
                                             //Example: if texture is 200 pixels in height and 600 in length, set this to 3
-
+        public int damage = 1;
+        public float nextDamageTime;
     void Start()
     {
         
@@ -51,10 +52,18 @@ public class MagicBeamStatic : MonoBehaviour
 
             Vector3 end;
             RaycastHit hit;
-            if (beamCollides && Physics.Raycast(transform.position, transform.forward, out hit)) //Checks for collision
-                end = hit.point - (transform.forward * beamEndOffset);
-            else
-                end = transform.position + (transform.forward * beamLength);
+                if (beamCollides && Physics.Raycast(transform.position, transform.forward, out hit))
+                { //Checks for collision
+                    Debug.Log(hit.collider.gameObject.name);
+                    if(Time.time > nextDamageTime)
+                    {
+                        hit.collider.gameObject.GetComponent<EnemyStats>().TakeDamage(damage);
+                        nextDamageTime = Time.time + .8f;
+                    }
+                    end = hit.point - (transform.forward * beamEndOffset);
+                }
+                else
+                    end = transform.position + (transform.forward * beamLength);
 
             line.SetPosition(1, end);
 

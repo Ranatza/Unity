@@ -7,6 +7,9 @@ public class Bullet : MonoBehaviour
     public Vector3 direction;
     public float speed;
     public GameObject impactEffect;
+    public int damage = 1;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +31,11 @@ public class Bullet : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         Instantiate(impactEffect, transform.position, Quaternion.identity);
+        if (other.CompareTag("Enemy"))
+        {
+            other.GetComponent<EnemyStats>().TakeDamage(damage);
+        }
+
         Destroy(gameObject);
     }
 }

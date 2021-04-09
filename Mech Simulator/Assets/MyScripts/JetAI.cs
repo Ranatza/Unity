@@ -9,7 +9,8 @@ public class JetAI : MonoBehaviour
 
     private Animator anim;
     private GameObject player;
-    private JetState state;
+    [System.NonSerialized]
+    public JetState state;
     private float distanceToPlayer;
     private NavMeshAgent nav;
 
@@ -53,21 +54,33 @@ public class JetAI : MonoBehaviour
                     //play animation
                     state = JetState.fight;
                 }
+
+                
                 break;
 
             case JetState.fight:
                 distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
                 //Debug.Log(distanceToPlayer);
-                if(distanceToPlayer < 14)
+                if(distanceToPlayer < 13)
                 {
                     Debug.Log("too close");
                     transform.parent.position += (transform.parent.position + (transform.parent.position - player.transform.position)).normalized * Time.deltaTime * 5;
                     //nav.SetDestination(transform.parent.position + (transform.parent.position - player.transform.position));
                 }
+
+                if (distanceToPlayer > 20)
+                {
+                    nav.isStopped = false;
+                    //move to target
+                    //Debug.Log("move in");
+                    nav.SetDestination(player.transform.position);
+                    transform.LookAt(player.transform.position);
+                }
                 transform.LookAt(player.transform.position);
                 break;
 
             case JetState.die:
+                Debug.Log("it's dead");
                 break;
 
         }
