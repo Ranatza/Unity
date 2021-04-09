@@ -6,6 +6,7 @@ using UnityEngine.AI;
 public enum JetState { hover, seek, fight, die}
 public class JetAI : MonoBehaviour
 {
+    public GameObject explosion;
 
     private Animator anim;
     private GameObject player;
@@ -81,6 +82,8 @@ public class JetAI : MonoBehaviour
 
             case JetState.die:
                 Debug.Log("it's dead");
+                Instantiate(explosion, transform.position, Quaternion.identity);
+                Destroy(gameObject);
                 break;
 
         }

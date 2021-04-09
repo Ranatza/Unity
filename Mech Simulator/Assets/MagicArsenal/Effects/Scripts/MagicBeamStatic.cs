@@ -54,12 +54,15 @@ public class MagicBeamStatic : MonoBehaviour
             RaycastHit hit;
                 if (beamCollides && Physics.Raycast(transform.position, transform.forward, out hit))
                 { //Checks for collision
-                    Debug.Log(hit.collider.gameObject.name);
-                    if(Time.time > nextDamageTime)
+                    if (hit.collider.CompareTag("Enemy"))
                     {
-                        hit.collider.gameObject.GetComponent<EnemyStats>().TakeDamage(damage);
-                        nextDamageTime = Time.time + .8f;
+                        if (Time.time > nextDamageTime)
+                        {
+                            hit.collider.gameObject.GetComponent<EnemyStats>().TakeDamage(damage);
+                            nextDamageTime = Time.time + .8f;
+                        }
                     }
+                    
                     end = hit.point - (transform.forward * beamEndOffset);
                 }
                 else
