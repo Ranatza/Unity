@@ -36,7 +36,7 @@ public class Shoot : MonoBehaviour
     void Update()
     {
         ///////////////////////left primary///////////////////
-        if (controlls.leftPrimary)
+        if (controlls.leftPrimary || controlls.rightPrimary)
         {
             if (!primaryPressed)
             {
@@ -59,7 +59,7 @@ public class Shoot : MonoBehaviour
         /////////////////////////////////////////////////////
         
         /////////////////////////right primary////////////////////
-        if (controlls.leftSecondary)
+        if (controlls.leftSecondary || controlls.rightSecondary)
         {
             shield.SetActive(true);
         }

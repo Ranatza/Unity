@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Spawner : MonoBehaviour
 {
@@ -28,10 +29,12 @@ public class Spawner : MonoBehaviour
             nextSpawnTime = Time.time + CreateRandomFloat(minDelay, maxDelay);
         }
     }
-
+    
 
     public float CreateRandomFloat(float min, float max)
     {
         return Random.Range(min, max);
     }
+
+   
 }

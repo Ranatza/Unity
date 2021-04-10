@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public enum JetState { hover, seek, fight, die}
+public enum JetState {descend, hover, seek, fight, die}
 public class JetAI : MonoBehaviour
 {
     public GameObject explosion;
@@ -19,9 +19,10 @@ public class JetAI : MonoBehaviour
     void Start()
     {
         player = GameObject.Find("Mech");
-        state = JetState.hover;
+        state = JetState.descend;
         anim = transform.GetChild(0).GetComponent<Animator>();
         nav = gameObject.GetComponentInParent<NavMeshAgent>();
+        nav.enabled = false;
         
         
     }
@@ -32,6 +33,10 @@ public class JetAI : MonoBehaviour
         
         switch (state)
         {
+            case JetState.descend:
+                transform.parent.transform.position -= new Vector3(0, .1f, 0);
+                break;
+
             case JetState.hover:
                 state = JetState.seek;
                     break;
@@ -94,5 +99,7 @@ public class JetAI : MonoBehaviour
             yield return new WaitForSeconds(.5f);
             anim.SetBool("gunsDeployed", true);
         }
+
+        
     }
 }
