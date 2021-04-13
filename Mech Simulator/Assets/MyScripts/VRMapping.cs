@@ -77,7 +77,7 @@ public class VRMapping : MonoBehaviour
             rightAnim.SetFloat("Button 1", 0);
         }
 
-        if (rightPrimary)
+        if (rightSecondary)
         {
             rightAnim.SetFloat("Button 2", 1);
         }
