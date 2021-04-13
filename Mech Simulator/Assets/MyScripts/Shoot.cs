@@ -15,6 +15,11 @@ public class Shoot : MonoBehaviour
     public GameObject electric2;
     public GameObject shield;
 
+    public GameObject plasmaScreen;
+    public GameObject lightningScreen;
+
+    public Material normalMat;
+    public Material selectedMat;
     
     
     private bool primaryPressed = false;
@@ -44,10 +49,14 @@ public class Shoot : MonoBehaviour
                 if (isElectric)
                 {
                     isElectric = false;
+                    setPlasma();
                 }
                 else
                 {
                     isElectric = true;
+                    setElectric();
+                    
+
                 }
             }
 
@@ -81,6 +90,8 @@ public class Shoot : MonoBehaviour
                 electric2.SetActive(true);
                 electric2.transform.position = rightFirePoint.transform.position;
                 electric2.transform.eulerAngles = rightFirePoint.transform.parent.eulerAngles;
+
+                
             }
             else
             {
@@ -114,5 +125,43 @@ public class Shoot : MonoBehaviour
             electric2.SetActive(false);
         }
 
+    }
+
+    private void setElectric()
+    {
+        foreach (Transform child in lightningScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = selectedMat;
+            }
+        }
+
+        foreach (Transform child in plasmaScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = normalMat;
+            }
+        }
+    }
+
+    private void setPlasma()
+    {
+        foreach (Transform child in lightningScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = normalMat;
+            }
+        }
+
+        foreach (Transform child in plasmaScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = selectedMat;
+            }
+        }
     }
 }
