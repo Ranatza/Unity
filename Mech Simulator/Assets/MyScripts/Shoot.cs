@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
+using TMPro;
 
 public class Shoot : MonoBehaviour
 {
+    public TextMeshProUGUI pAmmoDisplay;
+
     public GameObject leftFirePoint;
     public GameObject rightFirePoint;
     public XRNode inputSource;
@@ -20,7 +23,15 @@ public class Shoot : MonoBehaviour
 
     public Material normalMat;
     public Material selectedMat;
-    
+
+    private int maxPlasmaAmmo = 10;
+    private int maxElectricEnergy;
+
+    private int plasmaAmmo;
+    private int electricEnergy;
+
+    private float nextPlasmaRecharge;
+    private float nextEnergyRecharge;
     
     private bool primaryPressed = false;
 
@@ -33,6 +44,8 @@ public class Shoot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        plasmaAmmo = maxPlasmaAmmo;
+        electricEnergy = maxElectricEnergy;
         gm = GameObject.Find("GameManager");
         controlls = gm.GetComponent<VRMapping>();
     }
@@ -40,6 +53,7 @@ public class Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        rechargeAmmo();
         ///////////////////////left primary///////////////////
         if (controlls.leftPrimary || controlls.rightPrimary)
         {
@@ -79,7 +93,7 @@ public class Shoot : MonoBehaviour
         /////////////////////////////////////////////////////////////
         
 
-        if (controlls.leftTrigger > .2f)
+        if (controlls.leftTrigger > .2f || controlls.rightTrigger > .2f)
         {
             if (isElectric)
             {
@@ -95,7 +109,7 @@ public class Shoot : MonoBehaviour
             }
             else
             {
-                if (Time.time > nextShot)
+                if (Time.time > nextShot && plasmaAmmo > 0)
                 {
 
                     
@@ -110,12 +124,13 @@ public class Shoot : MonoBehaviour
 
                     Destroy(clone, 5);
                     Destroy(clone2, 5);
+                    plasmaAmmo--;
                     
                 }
             }
-            
-            
 
+
+            
 
 
         }
@@ -163,5 +178,27 @@ public class Shoot : MonoBehaviour
                 child.GetComponent<Renderer>().material = selectedMat;
             }
         }
+    }
+
+    private void rechargeAmmo()
+    {
+
+        if (isElectric)
+        {
+            if (Time.time > nextPlasmaRecharge)
+            {
+                if (plasmaAmmo < maxPlasmaAmmo)
+                {
+                    plasmaAmmo++;
+                }
+                nextPlasmaRecharge = Time.time + 2;
+            }
+        }
+        else
+        {
+            
+        }
+
+        pAmmoDisplay.text = plasmaAmmo + "/ 10";
     }
 }

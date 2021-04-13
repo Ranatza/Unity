@@ -1103,6 +1103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8544712a72f1c24fb2e173726933e64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pAmmoDisplay: {fileID: 0}
   leftFirePoint: {fileID: 5273744190950762477}
   rightFirePoint: {fileID: 5273744190193958466}
   inputSource: 4
