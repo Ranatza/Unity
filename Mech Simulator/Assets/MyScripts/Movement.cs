@@ -15,7 +15,9 @@ public class Movement : MonoBehaviour
     private GameObject gm;
     private VRMapping controlls;
 
-
+    private bool grounded;
+    public GameObject groundCheck;
+    public LayerMask mask;
 
     // Start is called before the first frame update
     void Start()
@@ -49,8 +51,41 @@ public class Movement : MonoBehaviour
             character.transform.Rotate(0, -.3f, 0);
         }
 
+        if (!grounded)
+        {
+            transform.position += new Vector3(0, -1f, 0) * Time.deltaTime;
+        }
 
-
+        if (Physics.CheckSphere(groundCheck.transform.position, .5f, mask))
+        {
+            grounded = true;
+        }
+        else
+        {
+            grounded = false;
+        }
+        
 
     }
+
+    
+
+    private void OnTriggerStay(Collider other)
+    {
+        if (other.transform.CompareTag("Ground"))
+        {
+            grounded = true;
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.transform.CompareTag("Ground"))
+        {
+            grounded = false;
+        }
+    }
+
+    
+    
 }

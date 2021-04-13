@@ -836,6 +836,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   xrRig: {fileID: 5685127918099460125}
+  groundCheck: {fileID: 0}
+  mask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!114 &5273744190151344940
 MonoBehaviour:
   m_ObjectHideFlags: 0
