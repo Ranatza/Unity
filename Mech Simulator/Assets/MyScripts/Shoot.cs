@@ -20,6 +20,7 @@ public class Shoot : MonoBehaviour
 
     public GameObject plasmaScreen;
     public GameObject lightningScreen;
+    public GameObject shieldScreen;
 
     public Material normalMat;
     public Material selectedMat;
@@ -41,6 +42,9 @@ public class Shoot : MonoBehaviour
     private GameObject gm;
     private VRMapping controlls;
 
+    private GameObject electricRange;
+    private GameObject plasmaRange;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,6 +52,8 @@ public class Shoot : MonoBehaviour
         electricEnergy = maxElectricEnergy;
         gm = GameObject.Find("GameManager");
         controlls = gm.GetComponent<VRMapping>();
+        electricRange = GameObject.Find("ElectricRange");
+        plasmaRange = GameObject.Find("PlasmaRange");
     }
 
     // Update is called once per frame
@@ -55,7 +61,7 @@ public class Shoot : MonoBehaviour
     {
         rechargeAmmo();
         ///////////////////////left primary///////////////////
-        if (controlls.leftPrimary || controlls.rightPrimary)
+        if ((controlls.leftPrimary || controlls.rightPrimary) && (controlls.leftTrigger < .2f || controlls.rightTrigger <.2f))
         {
             if (!primaryPressed)
             {
@@ -63,13 +69,17 @@ public class Shoot : MonoBehaviour
                 if (isElectric)
                 {
                     isElectric = false;
-                    setPlasma();
+                    plasmaRange.gameObject.SetActive(true);
+                    electricRange.gameObject.SetActive(false);
+                    //setPlasma();
                 }
                 else
                 {
                     isElectric = true;
-                    setElectric();
-                    
+                    plasmaRange.gameObject.SetActive(false);
+                    electricRange.gameObject.SetActive(true);
+                    //setElectric();
+
 
                 }
             }
@@ -82,18 +92,28 @@ public class Shoot : MonoBehaviour
         /////////////////////////////////////////////////////
         
         /////////////////////////right primary////////////////////
-        if (controlls.leftSecondary || controlls.rightSecondary)
+        if ((controlls.leftSecondary || controlls.rightSecondary))
         {
             shield.SetActive(true);
+
+            setShield();
         }
         else
         {
             shield.SetActive(false);
+            if (isElectric)
+            {
+                setElectric();
+            }
+            else
+            {
+                setPlasma();
+            }
         }
         /////////////////////////////////////////////////////////////
         
 
-        if (controlls.leftTrigger > .2f || controlls.rightTrigger > .2f)
+        if ((controlls.leftTrigger > .2f || controlls.rightTrigger > .2f) && !(controlls.leftSecondary || controlls.rightSecondary))
         {
             if (isElectric)
             {
@@ -159,6 +179,14 @@ public class Shoot : MonoBehaviour
                 child.GetComponent<Renderer>().material = normalMat;
             }
         }
+
+        foreach (Transform child in shieldScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = normalMat;
+            }
+        }
     }
 
     private void setPlasma()
@@ -172,6 +200,41 @@ public class Shoot : MonoBehaviour
         }
 
         foreach (Transform child in plasmaScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = selectedMat;
+            }
+        }
+
+        foreach (Transform child in shieldScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = normalMat;
+            }
+        }
+    }
+
+    private void setShield()
+    {
+        foreach (Transform child in lightningScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = normalMat;
+            }
+        }
+
+        foreach (Transform child in plasmaScreen.transform)
+        {
+            if (child.gameObject.name == "Trim")
+            {
+                child.GetComponent<Renderer>().material = normalMat;
+            }
+        }
+
+        foreach (Transform child in shieldScreen.transform)
         {
             if (child.gameObject.name == "Trim")
             {

@@ -7,13 +7,17 @@ public enum JetState {descend, hover, seek, fight, die}
 public class JetAI : MonoBehaviour
 {
     public GameObject explosion;
+    public GameObject[] rockets;
 
+    private int rocketsFired = 0;
     private Animator anim;
     private GameObject player;
     [System.NonSerialized]
     public JetState state;
     private float distanceToPlayer;
     private NavMeshAgent nav;
+
+    private float nextRocketFireTime;
 
     // Start is called before the first frame update
     void Start()
@@ -61,13 +65,26 @@ public class JetAI : MonoBehaviour
                     state = JetState.fight;
                 }
 
-                
+                if (Time.time > nextRocketFireTime && rocketsFired < 4)
+                {
+                    fireRocket();
+                    nextRocketFireTime = Time.time + 3;
+                }
+
+
                 break;
 
             case JetState.fight:
                 distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
                 //Debug.Log(distanceToPlayer);
-                if(distanceToPlayer < 13)
+                if (Time.time > nextRocketFireTime && rocketsFired < 4)
+                {
+                    fireRocket();
+                    nextRocketFireTime = Time.time + 3;
+                }
+
+
+                if (distanceToPlayer < 13)
                 {
                     Debug.Log("too close");
                     transform.parent.position += (transform.parent.position + (transform.parent.position - player.transform.position)).normalized * Time.deltaTime * 5;
@@ -102,4 +119,15 @@ public class JetAI : MonoBehaviour
 
         
     }
+
+    private void fireRocket()
+    {
+        if(rocketsFired < 4)
+        {
+            rockets[rocketsFired].GetComponent<Rocket>().enabled = true;
+            rocketsFired++;
+        }
+        
+    }
+
 }

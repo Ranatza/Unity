@@ -2,15 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class HeadTracking : MonoBehaviour
 {
     public float rotationSpeed;
     public LayerMask mask;
-    public TextMeshProUGUI text;
     public GameObject viewPoint;
     public GameObject leftTurret;
     public GameObject rightTurret;
+    public GameObject crosshairs;
 
     [System.NonSerialized]
     public Vector3 point;
@@ -33,11 +34,13 @@ public class HeadTracking : MonoBehaviour
             Transform objectHit = hit.transform;
             if(objectHit.gameObject.layer == 6)
             {
-                text.text = hit.transform.name + "";
+                //text.text = hit.transform.name + "";
+                crosshairs.GetComponent<Image>().color = Color.green;
             }
             else
             {
-                text.text = "No Target";
+                //text.text = "No Target";
+                crosshairs.GetComponent<Image>().color = Color.red;
             }
             point = hit.point;
             if (objectHit.name == "RightWall") {
