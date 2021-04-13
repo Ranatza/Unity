@@ -70,7 +70,7 @@ public class Shoot : MonoBehaviour
         /////////////////////////////////////////////////////////////
         
 
-        if (controlls.leftTrigger)
+        if (controlls.leftTrigger > .2f)
         {
             if (isElectric)
             {
