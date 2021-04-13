@@ -1110,6 +1110,10 @@ MonoBehaviour:
   electric: {fileID: 0}
   electric2: {fileID: 0}
   shield: {fileID: 5273744191013731831}
+  plasmaScreen: {fileID: 0}
+  lightningScreen: {fileID: 0}
+  normalMat: {fileID: 0}
+  selectedMat: {fileID: 0}
 --- !u!1 &5273744190193958466
 GameObject:
   m_ObjectHideFlags: 0
