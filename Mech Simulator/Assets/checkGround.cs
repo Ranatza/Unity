@@ -22,7 +22,6 @@ public class checkGround : MonoBehaviour
     {
         if (other.CompareTag("Ground"))
         {
-            Debug.Log("true");
             transform.GetComponentInParent<NavMeshAgent>().enabled = true;
             jet.GetComponent<JetAI>().state = JetState.hover;
 

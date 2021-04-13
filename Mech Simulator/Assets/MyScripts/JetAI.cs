@@ -86,7 +86,6 @@ public class JetAI : MonoBehaviour
 
                 if (distanceToPlayer < 13)
                 {
-                    Debug.Log("too close");
                     transform.parent.position += (transform.parent.position + (transform.parent.position - player.transform.position)).normalized * Time.deltaTime * 5;
                     //nav.SetDestination(transform.parent.position + (transform.parent.position - player.transform.position));
                 }
@@ -103,7 +102,6 @@ public class JetAI : MonoBehaviour
                 break;
 
             case JetState.die:
-                Debug.Log("it's dead");
                 Instantiate(explosion, transform.position, Quaternion.identity);
                 Destroy(gameObject);
                 break;

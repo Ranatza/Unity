@@ -383,6 +383,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6383061930267095970, guid: b6ff9c1b03d51e14cbe96f9d8e3cbb1b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6383061930542942427, guid: b6ff9c1b03d51e14cbe96f9d8e3cbb1b, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -529,7 +533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 279483553}
-  explosion: {fileID: 0}
+  explosion: {fileID: 3073716998363810592, guid: c66744ab98db7454489c1eb55aec9a03, type: 3}
 --- !u!65 &1041097556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -702,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 279483553}
-  explosion: {fileID: 0}
+  explosion: {fileID: 3073716998363810592, guid: c66744ab98db7454489c1eb55aec9a03, type: 3}
 --- !u!54 &1171848001
 Rigidbody:
   m_ObjectHideFlags: 0
